@@ -1,0 +1,6 @@
+{
+  "roles": ["Software Engineer", "Embedded Engineer"],
+  "max_exp": 2,
+  "days": 3,
+  "include_internships": true
+}
