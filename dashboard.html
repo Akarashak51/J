@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fresher Job Dashboard</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1c2230; --muted:#667085; --line:#e3e6ec;
+          --accent:#2457d6; --ok:#12805c; --okbg:#e3f5ee; --warn:#b25e09; --warnbg:#fdf0dc;
+          --bad:#b42318; --badbg:#fde7e4; --chip:#eef1f6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#12151c; --card:#1b2029; --text:#e8ebf1; --muted:#9aa4b5; --line:#2a313d;
+            --accent:#7aa2ff; --ok:#5fd0a5; --okbg:#143327; --warn:#f0b35a; --warnbg:#3a2a12;
+            --bad:#ff8e84; --badbg:#3d1a17; --chip:#242b37; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:1000px; margin:0 auto; padding:20px 16px 60px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  .sub { color:var(--muted); font-size:13px; margin-bottom:14px; }
+  .banner { background:var(--warnbg); color:var(--warn); border-radius:8px; padding:10px 12px; margin-bottom:14px; font-size:14px; }
+  .filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
+  .filters input, .filters select { padding:8px 10px; border:1px solid var(--line); border-radius:8px;
+         background:var(--card); color:var(--text); font-size:14px; }
+  .filters input { flex:1 1 220px; }
+  .count { color:var(--muted); font-size:13px; margin:0 0 10px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-bottom:10px; }
+  .title { font-weight:600; font-size:16px; color:var(--accent); text-decoration:none; }
+  .title:hover { text-decoration:underline; }
+  .meta { color:var(--muted); font-size:13px; margin:2px 0 8px; }
+  .badges { display:flex; flex-wrap:wrap; gap:6px; }
+  .b { font-size:12px; padding:2px 8px; border-radius:999px; background:var(--chip); color:var(--text); }
+  .b.ok { background:var(--okbg); color:var(--ok); }
+  .b.warn { background:var(--warnbg); color:var(--warn); }
+  .note { font-size:12px; color:var(--warn); margin-top:6px; }
+  .empty { color:var(--muted); padding:24px; text-align:center; border:1px dashed var(--line); border-radius:10px; }
+  h2 { font-size:15px; margin:26px 0 8px; }
+  .panel { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px 14px; font-size:13px; }
+  .panel .row { padding:4px 0; border-bottom:1px solid var(--line); }
+  .panel .row:last-child { border-bottom:none; }
+  .bad { color:var(--bad); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Fresher Job Dashboard</h1>
+  <div class="sub" id="sub"></div>
+  <div class="banner" id="stale" hidden></div>
+  <div class="filters">
+    <input id="q" type="search" placeholder="Search title, company, location">
+    <select id="role"></select>
+    <select id="company"></select>
+    <select id="type"><option value="">Job + internship</option><option value="full-time">Full-time only</option><option value="internship">Internship only</option></select>
+    <select id="exp"><option value="">Any experience tag</option><option value="fit">Experience fits</option><option value="unspecified">Experience unspecified</option></select>
+    <select id="match"><option value="">Exact + related titles</option><option value="exact">Exact title only</option></select>
+    <select id="sort"><option value="best">Best match first</option><option value="new">Newest first</option></select>
+  </div>
+  <p class="count" id="count"></p>
+  <div id="list"></div>
+  <h2 class="bad">Could not check (these are NOT empty results)</h2>
+  <div class="panel" id="broken"></div>
+  <h2>Reached, nothing matching in the window</h2>
+  <div class="panel" id="quiet"></div>
+</div>
+
+<script id="data" type="application/json">{"generated_at": "2026-10-11T13:43:47.068864+00:00", "profile": {"roles": ["Software Engineer", "Embedded Engineer"], "max_exp": 2, "days": 3, "include_internships": true}, "results": [{"company": "Stripe", "status": "found", "scanned": 728, "role": "Software Engineer", "jobs": [{"title": "Software Engineer, Operator Tooling", "company": "stripe", "location": "Bucharest", "url": "https://stripe.com/jobs/search?gh_jid=8178879", "source": "greenhouse", "posted": "2026-10-09T13:38:47-04:00", "date_kind": "published", "description": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Operator Tooling builds software that helps Stripe’s operations teams spend less time on manual processes and more time on the work that needs their expertise. We replace spreadsheets, unstructured email chains, and repetitive tasks with tools that make operational work easier to manage and track. What you’ll do You’ll build and improve the platforms Stripe’s operations teams use to manage their work. Working across backend systems, you’ll turn complex operational needs into reliable tools and integrations, partnering directly with internal users to understand their workflows and improve their experience. Responsibilities Own problems from end to end, managing complexity and working directly with stakeholders to understand business impact, reliability, and operability Contribute to the product roadmap, help shape the team’s vision and strategy, and act as a sounding board for team leadership Uphold Stripe’s high standards for engineering and product quality Mentor newer team members and help them develop their engineering skills Work with stakeholders across Stripe to understand competing needs and balance priorities Who you are We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. Minimum requirements 3+ years of software engineering experience Comfort working across backend systems, with an understanding of the full software development lifecycle, from design and implementation to testing and deployment Ability to write high-quality, thoroughly tested code with clear documentation and appropriate production observability, following best practices in engineering, security, and design Empathy for internal and external users and a commitment to improving their experience Proven ability to integrate different services and processes, including those you haven’t worked with before Preferred qualifications Proficiency in JavaScript/TypeScript, React, Ruby, Java, Python, or Go; we value general engineering skills more than knowledge of a particular language or framework, and languages can be learned on the job Knowledge of distributed systems patterns and principles", "job_type": "full-time", "match": "exact", "experience": "unspecified", "note": "", "age_text": "44h ago (published)"}, {"title": "Software Engineer", "company": "stripe", "location": "Seattle, WA", "url": "https://stripe.com/jobs/search?gh_jid=8267736", "source": "greenhouse", "posted": "2026-10-09T12:47:42-04:00", "date_kind": "published", "description": "Who we are About Stripe Stripe, LLC. is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. What you’ll do Responsibilities Conducting technical interviews; Creating software, tooling and distributed systems for automating and managing data center network hardware and compute stacks; Creating and operating shared infrastructure for Stripe’s Cardholder data environment; Deployment tooling; SOX compliance audit prep interviews, and remediations; PCI compliance audit prep, interviews, and remediations; Project management; Mentoring junior engineers; On-call responsibilities. Who you are Minimum requirements Must have a Bachelor's degree or foreign equivalent in Computer Science, Software Engineering, or related field, plus two (2) years of Software Development experience. Position also requires the following: 2 years of experience with AWS cloud infrastructure and Terraform infrastructure automation; 2 years of experience with reliability, scalability, and distributed systems principles; 1 year of experience in Go and Ansible programming languages; 1 year of experience in Puppet host configuration; 1 year of experience in Ruby programming language; 1 year of experience in Python programming language; 1 year of experience in mentorship and leadership of junior software engineers; 1 year of experience performing 24/7 on call rotations to support high-availability software systems; 1 year of experience with monitoring and logging tools; 1 year of experience with computer network concepts; 1 year of experience in the knowledge of Linux operating system and subsystems; 1 year of experience with cloud and application security best practices; and 1 year of experience with PCI compliance monitoring, audit processes, and evidence collection. Salary: $190,400.00 - $285,600.00/yr This salary range represents the base salary range for the role and any sales commissions/sales bonuses targets, if applicable, would be in addition to the base salary. 40 hrs/week 50% remote work permitted Multiple Positions Available. Additional benefits for this role may include: equity, company bonus or sales commissions/bonuses; 401(k) plan; medical, dental, and vision benefits; and wellness stipends. WA67 #LI-DNI", "job_type": "full-time", "match": "exact", "experience": "fit", "note": "", "age_text": "44h ago (published)"}, {"title": "Software Engineer, Internal Identity", "company": "stripe", "location": "na", "url": "https://stripe.com/jobs/search?gh_jid=8265763", "source": "greenhouse", "posted": "2026-10-09T12:38:17-04:00", "date_kind": "published", "description": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Stripe's mission depends on the trust of the businesses that run on us. Internal Identity builds the infrastructure that keeps access to Stripe's systems secure: strong authentication and authorization that stays out of people's way. We decide how every engineer, service, and AI agent at Stripe gets access to what it needs, and nothing more. We're building the next generation of authorization at Stripe. It reasons about how people, services, and resources relate to each other, and it enforces policy consistently everywhere. We’re actively making the secure path the easiest one for every team at Stripe. The technical challenges we’re solving include building systems with 99.999%+ availability, expanding authorization controls to model agents as first-class identities, and making authorization policy authorship more approachable. Engineers here own big problems end to end and work closely with teams across the company. Internal Identity is largely a distributed team with a small presence in-person in Seattle. What you'll do We’re looking for an engineer who is passionate about addressing tough problems in the authorization space. This role is critical, not only for Stripe, but for the future of the commercial internet. Responsibilities Build and maintain reliable, performant and scalable authorization infrastructure (e.g. libraries, frameworks, services). Build comprehensive understanding of authorization needs of our users (e.g. product teams and infrastructure teams). Build comprehensive, easy-to-use, and policy driven authorization solutions. Collaborate with our users to adopt our authorization solutions to protect their resources by providing a great user experience. Build access visibility and continuous policy governance to empower resource owners, legal and compliance to put risk of inappropriate access under control. Who you are We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. Minimum requirements 2-5 years of professional hands-on software development experience Experience in the security domain Strong communication and cross-functional skills; drives clear next steps when there aren’t clear lines of ownership Prefer simple solutions and designs over complex ones; have a good intuition for what is lasting and scalable. Good product sense; able to seek out requirements from dependent teams and align them with business needs Preferred qualifications Experience in the identity and authorization domain Experience with Go, Java or Ruby", "job_type": "full-time", "match": "exact", "experience": "unspecified", "note": "", "age_text": "45h ago (published)"}]}, {"company": "Figma", "status": "no_role", "scanned": 150, "role": "Software Engineer", "jobs": []}, {"company": "Spotify", "status": "no_role", "scanned": 85, "role": "Software Engineer", "jobs": []}, {"company": "NVIDIA", "status": "no_role", "scanned": 132, "role": "Software Engineer", "jobs": []}, {"company": "Stripe", "status": "no_role", "scanned": 728, "role": "Embedded Engineer", "jobs": []}, {"company": "Figma", "status": "no_role", "scanned": 150, "role": "Embedded Engineer", "jobs": []}, {"company": "Spotify", "status": "no_role", "scanned": 85, "role": "Embedded Engineer", "jobs": []}, {"company": "NVIDIA", "status": "found", "scanned": 134, "role": "Embedded Engineer", "jobs": [{"title": "Firmware Engineer - Ethernet Switching", "company": "nvidia", "location": "Israel, Raanana", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/Firmware-Engineer---Ethernet-Switching_JR2022412", "source": "workday", "posted": "2026-10-08T13:43:20.532146+00:00", "date_kind": "relative", "description": "NVIDIA has been elevating computer graphics, PC gaming, and accelerated computing for more than 25 years. Today, we’re tapping into the unlimited potential of AI to define the next era of computing. As an NVIDIAN, you’ll be immersed in a diverse, encouraging environment where everyone is inspired to do their best work. Come join the team and see how you can make a lasting impact on the most groundbreaking technologies. NVIDIA’s Networking BU group is seeking to hire an expert Firmware Design Engineer for the Ethernet Switch Firmware Core team. The next generation of Switches are a crucial component of the most innovative AI and Cloud Computing Networks in the world. As a member of the Ethernet Firmware Team, you will craft and develop the firmware abstraction layer in the ETH Switch. This role will require you to participate in the design & development of firmware while working closely with hardware and architecture team to ensure timely delivery of our products to the market. What you'll be doing: Highly involved in the entire software development process from architecture to integration testing of firmware for the Spectrum ASIC product line. Work with HW & ASIC team to provide insights into developing the next gen of the groundbreaking of silicon and systems. Design and implement algorithms to improve system scale and performance. Work with higher layer software teams to debug issues reported by customers (internal and external). Design, implement and integrate new features according to the product roadmap. Have a new insight on how to improve our software? Why not! Bring your ideas to life by innovating during our hackathons Collaborate with other NVIDIA R&D teams around the globe. What we need to see: 2+ years of proven experience developing firmware for embedded systems. 2+ years of experience with C/C++ in Real-Time Embedded system. Preferably C. BS in Computer Science / Computer Engineering / Electrical Engineering or equivalent experience. Proven expertise with Networking protocols (at L2, L3, L4 layers). Strong technical debugging skills in Embedded Systems. Creative, self-motivated and collaborative person comfortable working with local and international teams. Problem solving frame of mind combined with interpersonal skills. Familiarity with ASIC development processes and code executions on FPGA. Ways to stand out from the crowd: Previous experience working with Networking Products like Network Adapters/Switches Patents in the fields of networking, communication protocols, ASIC design, computer architecture etc. Journal publications, Conference papers, along with strong referrals Widely considered to be one of the technology world’s most desirable employers, NVIDIA offers highly competitive salaries and a comprehensive benefits package. As you plan your future, see what we can offer to you and your family www.nvidiabenefits.com/ #LI-Hybrid", "job_type": "full-time", "match": "related", "experience": "fit", "note": "", "age_text": "3d ago (relative)"}]}]}</script>
+<script>
+const data = JSON.parse(document.getElementById('data').textContent);
+const $ = id => document.getElementById(id);
+
+// Merge the same job found under several roles.
+const jobs = [], seen = new Map();
+for (const r of data.results) for (const j of r.jobs) {
+  if (seen.has(j.url)) { seen.get(j.url).roles.add(r.role); continue; }
+  const o = Object.assign({}, j, { company: r.company, roles: new Set([r.role]) });
+  seen.set(j.url, o); jobs.push(o);
+}
+
+function fill(sel, first, values) {
+  sel.appendChild(new Option(first, ''));
+  [...new Set(values)].sort().forEach(v => sel.appendChild(new Option(v, v)));
+}
+fill($('role'), 'All roles', data.profile.roles || []);
+fill($('company'), 'All companies', data.results.map(r => r.company));
+
+// Header + staleness warning
+const gen = new Date(data.generated_at);
+const hours = (Date.now() - gen.getTime()) / 3600000;
+$('sub').textContent = 'Updated ' + gen.toLocaleString() + ' | last ' + data.profile.days +
+  ' days | up to ' + data.profile.max_exp + ' yrs experience | internships ' +
+  (data.profile.include_internships ? 'included' : 'excluded');
+if (hours > 24) {
+  $('stale').hidden = false;
+  $('stale').textContent = 'These results are ' + Math.round(hours) +
+    ' hours old. Jobs go stale in about 3 days - run run_batch.py and build_dashboard.py again.';
+}
+
+function badge(text, cls) { const s = document.createElement('span'); s.className = 'b ' + (cls || ''); s.textContent = text; return s; }
+
+function card(j) {
+  const d = document.createElement('div'); d.className = 'card';
+  const a = document.createElement('a'); a.className = 'title'; a.textContent = j.title;
+  if (/^https?:\/\//i.test(j.url)) { a.href = j.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+  d.appendChild(a);
+  const m = document.createElement('div'); m.className = 'meta';
+  m.textContent = j.company + ' | ' + (j.location || 'location n/a') + ' | ' + j.age_text + ' | via ' + j.source;
+  d.appendChild(m);
+  const b = document.createElement('div'); b.className = 'badges';
+  b.appendChild(badge(j.match === 'exact' ? 'Exact title' : 'Related title', j.match === 'exact' ? 'ok' : ''));
+  b.appendChild(badge(j.job_type === 'internship' ? 'Internship' : 'Full-time'));
+  if (j.experience === 'fit') b.appendChild(badge('Experience fits', 'ok'));
+  else b.appendChild(badge(j.description ? 'Experience not stated' : 'Experience unverified', 'warn'));
+  if (j.date_kind !== 'published') b.appendChild(badge('Date approximate', 'warn'));
+  [...j.roles].forEach(r => b.appendChild(badge('for: ' + r)));
+  d.appendChild(b);
+  if (j.note) { const n = document.createElement('div'); n.className = 'note'; n.textContent = j.note; d.appendChild(n); }
+  return d;
+}
+
+function render() {
+  const q = $('q').value.trim().toLowerCase(), role = $('role').value, co = $('company').value;
+  const type = $('type').value, exp = $('exp').value, match = $('match').value;
+  let rows = jobs.filter(j =>
+    (!q || (j.title + ' ' + j.company + ' ' + j.location).toLowerCase().includes(q)) &&
+    (!role || j.roles.has(role)) && (!co || j.company === co) &&
+    (!type || j.job_type === type) && (!exp || j.experience === exp) && (!match || j.match === match));
+  if ($('sort').value === 'new')
+    rows.sort((a, b) => (b.posted ? Date.parse(b.posted) : 0) - (a.posted ? Date.parse(a.posted) : 0));
+  $('count').textContent = rows.length + ' of ' + jobs.length + ' job(s)';
+  const list = $('list'); list.replaceChildren();
+  if (!rows.length) {
+    const e = document.createElement('div'); e.className = 'empty';
+    e.textContent = jobs.length ? 'No jobs match these filters.' : 'No matching jobs in this window. That is normal - check back after the next run.';
+    list.appendChild(e);
+  }
+  rows.forEach(j => list.appendChild(card(j)));
+}
+
+function panel(el, items, emptyText) {
+  el.replaceChildren();
+  if (!items.length) { el.textContent = emptyText; return; }
+  items.forEach(t => { const r = document.createElement('div'); r.className = 'row'; r.textContent = t; el.appendChild(r); });
+}
+panel($('broken'),
+  data.results.filter(r => r.status === 'unreachable').map(r => r.company + ' (' + r.role + '): ' + (r.reason || 'unknown reason')),
+  'Every company was reachable.');
+panel($('quiet'),
+  data.results.filter(r => r.status === 'no_role').map(r => r.company + ' (' + r.role + ')'),
+  'None.');
+
+['q','role','company','type','exp','match','sort'].forEach(id => $(id).addEventListener('input', render));
+render();
+</script>
+</body>
+</html>
