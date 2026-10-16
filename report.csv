@@ -1,0 +1,1578 @@
+company,bucket,ats,entry_url,evidence,detail,original_url
+1mg (Tata Digital),dead,,,,link not found (404/410),https://www.1mg.com/careers
+99acres,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.99acres.com/careers
+Accenture India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.accenture.com/in-en/careers
+Acko Insurance,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://acko.com/careers
+Activision Blizzard,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.activisionblizzard.com
+Adobe,needs_attention,workday,,link,"Workday company, but the site name is missing from the link. Open its careers page, copy the full link and use add_company.py",https://adobe.wd5.myworkdayjobs.com
+Aerospike,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.aerospike.com/careers
+Agoda,blocked,,,,site blocks scripts (page is probably fine in a browser),https://careers.agoda.com
+Airbnb,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.airbnb.com
+Altran (Capgemini Engineering),custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.capgemini-engineering.com/
+Amazon,dead,,,,link not found (404/410),https://www.amazon.jobs/en/locations/india
+Apna,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://apna.co/careers
+Apple,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.apple.com/careers
+Arista Networks,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.arista.com/en/careers
+ARM,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.arm.com
+Ather Energy,blocked,,,,site blocks scripts (page is probably fine in a browser),https://atherenergy.com/careers
+Atlassian,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.atlassian.com/company/careers
+Atos,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://atos.net/en/careers
+Automattic,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://automattic.com/work-with-us
+Bain & Company Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.bain.com/careers
+BCG Digital Ventures,dead,,,,domain does not exist,https://www.bcgdv.com/careers
+BeatO,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.beatoapp.com/
+BigBasket,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.bigbasket.com/careers
+Biosense,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.biosense.in/careers
+BlackBuck,dead,,,,server problem (502); retry later,https://www.blackbuck.com/careers
+Blinkit,blocked,,,,site blocks scripts (page is probably fine in a browser),https://blinkit.com/careers
+Boat,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.boat-lifestyle.com/
+Booking.com,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.booking.com
+Bosch,dead,,,,SSL certificate problem (try the link with/without www),https://www.bosch-career.com
+Bounce,dead,,,,domain does not exist,https://www.bounce.in/careers
+Bounce Infinity,dead,,,,SSL certificate problem (try the link with/without www),https://www.bounceinfinity.com/careers
+Broadcom,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.broadcom.com/company/careers
+BrowserStack,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.browserstack.com/careers
+Byju’s,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://byjus.com/careers
+Capgemini,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.capgemini.com/in-en/careers
+CarDekho,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.cardekho.com/
+Cars24,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.cars24.com/careers
+CGI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.cgi.com/en/careers
+Check Point Software,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.checkpoint.com/careers
+Cisco,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.cisco.com
+Classplus,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://classplusapp.com/careers
+ClearTax,dead,,,,link not found (404/410),https://cleartax.in/careers
+Cleartrip,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.cleartrip.com/
+CleverTap,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.clevertap.com/careers
+Cloudera,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.cloudera.com/careers
+Coding Ninjas,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.codingninjas.com/careers
+Cognizant,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.cognizant.com/in/en
+Coinbase,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.coinbase.com/careers
+Confluent,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.confluent.io/careers
+Continental AG,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.continental.com/en/career
+Couchbase,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.couchbase.com/careers
+CRED,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.cred.club
+CureBay,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.curebay.com/careers
+CureFit,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.cult.fit/careers
+CureSkin,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.cureskin.com/
+DailyHunt,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.dailyhunt.com/
+Darwinbox,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://darwinbox.com/careers
+Databricks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://databricks.com/company/careers
+Datastax,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.datastax.com/careers
+Delhivery,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.delhivery.com/careers
+Dell Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.dell.com
+Deloitte Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www2.deloitte.com/global/en/careers
+Digit Insurance,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.godigit.com/careers
+Dozee,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.dozee.health/
+Dream11,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.dreamsports.group/careers
+Droom,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://droom.in/
+Dropbox,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.dropbox.com
+Dun & Bradstreet,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.dnb.com/careers
+DXC Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.dxc.com
+EasyMyTrip,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.easemytrip.com/
+Elastic,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.elastic.co/about/careers
+Electronic Arts (EA),custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.ea.com/careers
+Endava,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.endava.com
+EPAM Systems,dead,,,,domain does not exist,https://careers.epam-corp.com
+Epic Games,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.epicgames.com/site/en-US/careers
+Ericsson,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.ericsson.com/en/careers
+Eruditus,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://eruditus.com/
+EXL Service,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.exlservice.com/careers
+Expedia India,dead,,,,connection failed,https://lifeatexpedia.com
+EY Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.ey.com/en_gl/careers
+FarEye,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://fareye.com/careers
+Fi Money,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://fi.money/careers
+Fire-Boltt,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.fireboltt.com/
+Flipkart,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.flipkartcareers.com
+Fortinet,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.fortinet.com/corporate/careers
+Forus Health,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.forushealth.com/careers
+Fractal Analytics,ready_unverified,workday,https://fractal.wd1.myworkdayjobs.com/Careers,link,portal found in the link; connection not tested,https://fractal.ai/careers
+Freshworks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.freshworks.com/company/careers
+Fujitsu,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.fujitsu.com/global/about/careers
+Furlenco,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.furlenco.com/
+Gartner,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.gartner.com
+GE Digital,dead,,,,domain does not exist,https://jobs.gecareers.com
+Genpact,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.genpact.com/careers
+GitHub,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://github.com/about/careers
+GitLab,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://about.gitlab.com/jobs
+Globant,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.globant.com/careers
+Goibibo,dead,,,,timed out (retry; may just be slow),https://www.goibibo.com/careers
+Google,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.google.com
+Groww,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://groww.in/careers
+Happiest Minds,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.happiestminds.com/careers
+Hasura,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hasura.io/careers
+HCLTech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.hcltech.com/careers
+HealthifyMe,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.healthifyme.com/careers
+HealthPlix,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.healthplix.com/
+Hitachi Vantara,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.hitachi.com
+Honeywell,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.honeywell.com
+Housing.com,blocked,,,,site blocks scripts (page is probably fine in a browser),https://housing.com/careers
+HP Inc.,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.hp.com
+HPE,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.hpe.com
+Huawei,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://career.huawei.com
+IBM,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.ibm.com/careers
+Incedo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.incedoinc.com/careers
+INDmoney,blocked,,,,site blocks scripts (page is probably fine in a browser),https://indmoney.com/careers
+Infosys,blocked,,,,site blocks scripts (page is probably fine in a browser),https://careers.infosys.com
+Infra.Market,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.infra.market/careers
+InMobi,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.inmobi.com/careers
+Innovaccer,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://innovaccer.com/careers
+Intel,blocked,,,,site blocks scripts (page is probably fine in a browser),https://jobs.intel.com
+Intuit,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.intuit.com
+Ixigo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.ixigo.com/careers
+Jabong,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.jabong.com/careers
+Juniper Networks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.juniper.net/us/en/company/careers
+Jupiter Money,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jupiter.money/careers
+Kayak,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.kayak.com/careers
+Khatabook,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://khatabook.com/careers
+Koo App,dead,,,,link not found (404/410),https://www.kooapp.com/
+KPMG Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://home.kpmg/xx/en/home/careers.html
+Kutumb,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kutumb.app/careers
+LambdaTest,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.lambdatest.com/careers
+LG CNS,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.lgcns.com/
+LinkedIn,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.linkedin.com
+Livspace,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.livspace.com/careers
+Locus.sh,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://locus.sh/careers
+LTIMindtree,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.ltimindtree.com/careers
+Luxoft,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://career.luxoft.com
+Lyft,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.lyft.com/careers
+MagicBricks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.magicbricks.com/careers
+Mahindra Comviva,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.mahindracomviva.com/careers
+Mahindra Electric,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.mahindraelectric.com/careers
+MakeMyTrip,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.makemytrip.com
+Mamaearth,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mamaearth.in/
+Mastek,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.mastek.com/careers
+McKinsey Digital,dead,,,,timed out (retry; may just be slow),https://www.mckinsey.com/careers
+MedCords,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.medcords.com/
+MedGenome,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.medgenome.com/careers
+Medibuddy,dead,,,,server problem (502); retry later,https://www.medibuddy.in/careers
+Meesho,blocked,,,,site blocks scripts (page is probably fine in a browser),https://careers.meesho.com
+Meta,dead,,,,server problem (400); retry later,https://www.metacareers.com
+MFine,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.mfine.co/
+Micron Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://micron.com/careers
+Microsoft,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.microsoft.com
+MindTickle,ready_unverified,lever,https://jobs.lever.co/mindtickle,link,portal found in the link; connection not tested,https://www.mindtickle.com/careers
+MoEngage,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.moengage.com/careers
+MongoDB,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.mongodb.com/careers
+Mphasis,dead,,,,link not found (404/410),https://www.mphasis.com/careers
+MPL,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mplgaming.com/
+Mu Sigma,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.mu-sigma.com/careers
+Myntra,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.myntra.com
+Navi,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://navi.com/careers
+Nazara Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.nazara.com/careers
+NEC Corporation,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.nec.com/en/global/careers
+Netflix,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.netflix.com
+Niantic,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nianticlabs.com/jobs
+NielsenIQ,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nielseniq.com/global/en/careers
+Niki.ai,blocked,,,,site blocks scripts (page is probably fine in a browser),https://niki.ai/
+Niramai,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.niramai.com/careers
+NoBroker,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.nobroker.in/careers
+Noise,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.gonoise.com/
+Nokia,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.nokia.com/about-us/careers
+NTT Data,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.nttdata.com
+NVIDIA,needs_attention,workday,,link,"Workday company, but the site name is missing from the link. Open its careers page, copy the full link and use add_company.py",https://nvidia.wd5.myworkdayjobs.com
+Nykaa,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.nykaa.com/careers
+OfBusiness,dead,,,,link not found (404/410),https://www.ofbusiness.com/careers
+OkCredit,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://okcredit.in/careers
+Okta,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.okta.com/company/careers
+Ola,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.olacabs.com/careers
+Ola Electric,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://olaelectric.com/careers
+Onsurity,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.onsurity.com/careers
+Open Financial,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://open.money/careers
+Oracle,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.oracle.com
+Oxyzo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.oxyzo.in/careers
+OYO Rooms,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.oyorooms.com/careers
+Palantir,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.palantir.com/careers
+Palo Alto Networks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.paloaltonetworks.com
+Panasonic,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.panasonic.com/global/corporate/jobs
+PayPal,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.paypal.com/careers
+Paytm,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://paytm.com/careers
+PayU,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://corporate.payu.com/careers
+Pepperfry,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.pepperfry.com/careers
+Phable,dead,,,,domain does not exist,https://www.phablecare.com/careers
+Pharmarack,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.pharmarack.com/careers
+PharmEasy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pharmeasy.in/careers
+Philips,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.careers.philips.com
+PhonePe,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.phonepe.com/careers
+Pinterest,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.pinterestcareers.com
+Plaid,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://plaid.com/careers
+Plum Insurance,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.plumhq.com/careers
+PolicyBazaar,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.policybazaar.com/careers
+Porter,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://porter.in/careers
+Postman,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.postman.com/careers
+Practo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.practo.com/careers
+Pristyn Care,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.pristyncare.com/
+Purplle,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.purplle.com/careers
+PwC Digital,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.pwc.com/careers
+Qualcomm,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.qualcomm.com/company/careers
+Quikr,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.quikr.com/
+Qure.ai,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://qure.ai/
+Ramco Systems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.ramco.com/careers
+Rapido,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rapido.bike/
+Razorpay,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://razorpay.com/careers
+RazorThink,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.razorthink.com/
+RedBus,dead,,,,timed out (retry; may just be slow),https://www.redbus.in/careers
+Redis Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://redis.com/company/careers
+Relevel,dead,,,,server problem (530); retry later,https://relevel.com/careers
+Remidio,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.remidio.com/
+ReNew Power,dead,,,,connection failed,https://renewpower.in/careers
+Rentomojo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.rentomojo.com/
+Revolut,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.revolut.com/careers
+Robinhood,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.robinhood.com
+Roblox,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://corp.roblox.com/careers
+Rockstar Games,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.rockstargames.com/careers
+Salesforce,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.salesforce.com/company/careers
+Samsung R&D,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.samsung.com/in/aboutsamsung/careers
+SAP,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.sap.com
+Scaler,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.scaler.com/careers
+Seagate Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.seagate.com
+ServiceNow,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.servicenow.com
+Shadowfax,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://shadowfax.in/careers
+ShareChat,dead,,,,domain does not exist,https://careers.sharechat.com
+ShopClues,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.shopclues.com/careers
+Shopify,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.shopify.com/careers
+Siemens,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.siemens.com
+Siemens Healthineers,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.siemens-healthineers.com
+SigTuple,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.sigtuple.com/
+Simplilearn,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.simplilearn.com/careers
+Skyscanner,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.skyscanner.net/jobs
+Slack,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://slack.com/careers
+Slice,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.sliceit.com/careers
+Smallcase,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.smallcase.com/
+Snapdeal,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.snapdeal.com/
+Snowflake,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.snowflake.com
+Snowplow Analytics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://snowplow.io/careers
+Sopra Steria,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.soprasteria.com/en/careers
+SoundCloud,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://soundcloud.com/jobs
+SpaceX,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.spacex.com/careers
+Spinny,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.spinny.com/careers
+Splunk,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.splunk.com/
+Spotify,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.spotifyjobs.com
+Square (Block Inc.),custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://block.xyz/careers
+Square Enix,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.square-enix.com/
+Square Yards,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.squareyards.com/
+Stripe,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://stripe.com/jobs
+Subex,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.subex.com/careers
+Sutherland,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.sutherlandglobal.com/careers
+Swasth Digital Health,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://swasth.org/
+Swiggy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.swiggy.com
+Tata Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.tatadigital.com/careers
+Tata Elxsi,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.tataelxsi.com/careers
+TCS,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.tcs.com/careers
+Teachmint,other_ats,keka,,link,uses keka - the agent cannot read this portal yet,https://teachmint.com/careers
+Tech Mahindra,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.techmahindra.com
+Tesla,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.tesla.com/careers
+Texas Instruments,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.ti.com
+ThoughtSpot,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.thoughtspot.com/careers
+ThoughtWorks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.thoughtworks.com/careers
+Tiger Analytics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.tigeranalytics.com/careers
+Toppr,dead,,,,SSL certificate problem (try the link with/without www),https://www.toppr.com/careers
+Tracxn,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tracxn.com/
+Tricog,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.tricog.com/careers
+TripAdvisor,needs_attention,workday,,link,"Workday company, but the site name is missing from the link. Open its careers page, copy the full link and use add_company.py",https://tripadvisor.wd1.myworkdayjobs.com
+Trivago,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://company.trivago.com/careers
+Turtlemint,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.turtlemint.com/
+Twilio,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.twilio.com/company/jobs
+Twitter (X),custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.twitter.com
+Uber,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.uber.com/careers
+Ubisoft,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.ubisoft.com/jobs
+Udaan,dead,,,,connection failed,https://careers.udaan.com
+Unacademy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://unacademy.com/careers
+Uni Cards,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.uni.cards/
+Unity Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://unity.com/careers
+UpGrad,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.upgrad.com/careers
+Upstox,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://upstox.com/careers
+Urban Company,dead,,,,timed out (retry; may just be slow),https://www.urbancompany.com/
+Valeo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.valeo.com/en/careers
+Valve Corporation,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.valvesoftware.com/jobs
+Vedantu,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.vedantu.com/careers
+VMware,dead,,,,connection failed,https://careers.vmware.com
+Vogo,dead,,,,SSL certificate problem (try the link with/without www),https://vogo.in/careers
+Western Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.westerndigital.com
+WhiteHat Jr,dead,,,,domain does not exist,https://www.whitehatjr.com/careers
+Wingify,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wingify.com/careers
+Wipro,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.wipro.com/
+Wise (TransferWise),custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.wise.jobs
+WNS Global Services,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.wns.com/careers
+Workday,needs_attention,workday,,link,"Workday company, but the site name is missing from the link. Open its careers page, copy the full link and use add_company.py",https://workday.wd5.myworkdayjobs.com
+Yatra,dead,,,,timed out (retry; may just be slow),https://www.yatra.com/careers
+Yulu,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.yulu.bike/careers
+Zapier,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zapier.com/jobs
+Zensar Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.zensar.com/careers
+Zepto,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.zepto.com/careers
+Zerodha,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zerodha.com/careers
+Zetwerk,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.zetwerk.com/careers
+Zoho,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.zohocorp.com
+Zomato,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.zomato.com/careers
+Zoomcar,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.zoomcar.com/careers
+Zynga,dead,,,,connection failed,https://www.zynga.com/careers
+100ms,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://100ms.live/
+3i Infotech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.3i-infotech.com/careers
+5paisa,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://5paisa.com/careers
+Abhibus,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://abhibus.com/careers
+Adani Green,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://adanigreenenergy.com/careers
+Adda247,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://adda247.com/
+Addverb,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://addverb.com/careers
+Aeron Systems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://aeronsystems.com/careers
+Affle,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://affle.com/
+Agilisium,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://agilisium.com/careers
+Agnikul Cosmos,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://agnikul.in/careers
+AgroStar,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://agrostar.in/
+Airtel Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://airtel.in/careers
+Ajio,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.ril.com/
+Allsec Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://allsectech.com/careers
+Almabetter,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://almabetter.com/
+Amber Enterprises,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ambergroupindia.com/careers
+Angel One,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://angelone.in/careers
+Anthem Software,blocked,,,,site blocks scripts (page is probably fine in a browser),https://anthemsoftware.com/careers
+Apollo 24/7,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://apollo247.com/
+Appsecure,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://appsecure.security/
+Asian Paints Tech,dead,,,,link not found (404/410),https://www.asianpaints.com/careers
+Aspire Systems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://aspiresys.com/careers
+Astra Microwave,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://astramwp.com/careers
+Ati Motors,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://atimotors.com/careers
+Atlan,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://atlan.com/careers
+Attero Recycling,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://attero.in/
+AU Small Finance Bank Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://aubank.in/careers
+Aurionpro,dead,,,,SSL certificate problem (try the link with/without www),https://aurionpro.com/careers
+Autoninja,blocked,,,,site blocks scripts (page is probably fine in a browser),https://autoninja.com/
+Aye Finance,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ayefin.com/careers
+Bahwan CyberTek,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bahwancybertek.com/careers
+Bajaj Capital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bajajcapital.com/careers
+Bajaj Electricals,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bajajelectricals.com/careers
+Bajaj Finserv Health,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bajajfinservhealth.in/
+Bandhan Bank Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bandhanbank.com/careers
+Bank of Baroda Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.bankofbaroda.in/careers
+Bank of India Tech,blocked,,,,site blocks scripts (page is probably fine in a browser),https://bankofindia.co.in/careers
+BankBazaar,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.bankbazaar.com/careers.html
+Bellatrix Aerospace,dead,,,,server problem (523); retry later,https://bellatrix.space/careers
+Betterhome,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://betterhomes.com/careers
+Bewakoof,blocked,,,,site blocks scripts (page is probably fine in a browser),https://bewakoof.com/careers
+Bharat Electronics,dead,,,,SSL certificate problem (try the link with/without www),https://bel-india.in/careers
+Bharat FIH,dead,,,,SSL certificate problem (try the link with/without www),https://bharatfih.com/careers
+BharatAgri,dead,,,,domain does not exist,https://bharatagri.co/careers
+BharatPe,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bharatpe.com/careers
+Bhuvan ISRO,dead,,,,domain does not exist,https://isro.gov.in/careers
+Biconomy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://biconomy.io/careers
+Big Bang Boom Solutions,blocked,,,,site blocks scripts (page is probably fine in a browser),https://bbbsolutions.com/careers
+BigRock,blocked,,,,site blocks scripts (page is probably fine in a browser),https://bigrock.in/careers
+Bijak,other_ats,keka,,link,uses keka - the agent cannot read this portal yet,https://bijak.in/careers
+BikeDekho,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bikedekho.com/
+Bikewale,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bikewale.com/
+Bima Pehchan,dead,,,,domain does not exist,https://bimapehchan.com/careers
+Bira91,dead,,,,connection failed,https://bira91.com/careers
+Birlasoft,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://birlasoft.com/careers
+Blue Star,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.bluestarindia.com/careers
+Bluepi,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bluepi.in/careers
+BlueStone,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bluestone.com/
+Blupine,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://blupineenergy.com/
+Board Infinity,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://boardinfinity.com/
+Bombay Shaving Company,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bombayshavingcompany.com/careers
+Box8,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://box8.in/careers
+BPCL Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bharatpetroleum.in/careers
+Browntape,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://browntape.com/
+Bugworks,dead,,,,server problem (500); retry later,https://bugworks.com/careers
+Bureau,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bureau.id/
+Busy Infotech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://busy.in/careers
+BYJU'S Tynker,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tynker.com/careers
+Calsoft,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://calsoftinc.com/careers
+Cambridge Technology Enterprises,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cambridgetechnology.com/careers
+Canara Bank Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://canarabank.com/
+Capillary Technologies,blocked,,,,site blocks scripts (page is probably fine in a browser),https://capillarytech.com/careers
+Capital Float,dead,,,,domain does not exist,https://capitalfloat.com/careers
+CaratLane,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://caratlane.com/careers
+Cashfree Payments,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cashfree.com/careers
+CDAC,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cdac.in/careers
+Chargebee,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://chargebee.com/careers
+Cigniti Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cigniti.com/
+CitiusTech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://citiustech.com/careers
+Clickpost,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://clickpost.ai/careers
+Clix Capital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://clix.capital/careers
+Cloudphysician,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cloudphysician.net/careers
+Club Mahindra,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://clubmahindra.com/careers
+Coal India,dead,,,,domain does not exist,https://coalindia.in/careers
+CodeChef,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://codechef.com/careers
+Codingal,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://codingal.com/careers
+Coforge,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://coforge.com/careers
+CoinDCX,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://coindcx.com/careers
+CoinSwitch,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://coinswitch.co/
+CoLive,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://colive.com/careers
+CometChat,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cometchat.com/
+Comviva,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.comviva.com/careers
+ConfirmTkt,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://confirmtkt.com/careers
+CoRover,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://corover.ai/careers
+Country Delight,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://countrydelight.in/careers
+Course5 Intelligence,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://course5i.com/careers
+Coverfox,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://coverfox.com/careers
+CredAvenue,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://credavenue.com/
+CRIF High Mark,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://crifhighmark.com/
+Crio.do,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://crio.do/careers
+Crompton,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.crompton.co.in/careers
+Cropin,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cropin.com/careers
+CSB Bank Tech,dead,,,,SSL certificate problem (try the link with/without www),https://csb.co.in/careers
+CtrlS Datacenters,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ctrls.com/careers
+Cuemath,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cuemath.com/
+Cybage Software,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cybage.com/careers
+Cyient,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.cyient.com/careers
+Cyient DLM,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cyientdlm.com/careers
+CynLr,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cynlr.com/careers
+Cyware,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cyware.com/careers
+Daikin India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://daikinindia.com/careers
+Damco Solutions,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://damcogroup.com/careers
+Data Patterns,dead,,,,SSL certificate problem (try the link with/without www),https://datapatternsindia.com/careers
+Datamatics,dead,,,,link not found (404/410),https://www.datamatics.com/careers
+DealShare,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://dealshare.in/
+Decentro,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://decentro.tech/careers
+DeHaat,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://agrevolution.in/careers
+Design Cafe,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://designcafe.com/careers
+Dhan,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://dhan.co/
+Dhruva Interactive,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://dhruva.com/careers
+Dhruva Space,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://dhruvaspace.com/careers
+Digantara,dead,,,,connection failed,https://digantara.com/careers
+Digio,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://digio.in/
+Dineout,dead,,,,SSL certificate problem (try the link with/without www),https://dineout.co.in/careers
+Directi,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://directi.com/
+Dixon Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://dixoninfo.com/careers
+Doubtnut,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://doubtnut.com/careers
+Drivezy,dead,,,,domain does not exist,https://drivezy.com/careers
+E2E Networks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://e2enetworks.com/careers
+EazyDiner,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://eazydiner.com/
+eClerx,blocked,,,,site blocks scripts (page is probably fine in a browser),https://eclerx.com/careers
+Ecom Express,dead,,,,SSL certificate problem (try the link with/without www),https://ecomexpress.in/careers
+Edureka,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://edureka.co/careers
+Eidiko Systems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://eidiko.com/careers
+Eka Care,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://eka.care/
+Ekart,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ekartlogistics.com/careers
+Embibe,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://embibe.com/
+Equifax India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://equifax.co.in/careers
+Equitas Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://equitasbank.com/
+Eros Now,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://erosnow.com/careers
+ET Money,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://etmoney.com/
+Euler Motors,blocked,,,,site blocks scripts (page is probably fine in a browser),https://eulermotors.com/careers
+Evalueserve,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://evalueserve.com/careers
+Even Healthcare,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://even.in/
+Exide Energy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.exideindustries.com/careers
+Exotel,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://exotel.com/careers
+Experian India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://experian.in/careers
+Extramarks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://extramarks.com/careers
+Ezetap,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ezetap.com/
+FabHotels,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://fabhotels.com/careers
+Fampay,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://fampay.in/careers
+Fasal,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://fasal.co/
+Fasttrack Carsome,blocked,,,,site blocks scripts (page is probably fine in a browser),https://carsome.com/careers
+Federal Bank Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.federalbank.co.in/careers
+Finbox,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://finbox.in/careers
+Fino Payments Bank,dead,,,,SSL certificate problem (try the link with/without www),https://finobank.com/careers
+FirstCry,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.firstcry.com/careers
+Firstsource,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://firstsource.com/careers
+Flexmoney,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://flexmoney.in/careers
+Foundit,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://foundit.in/careers
+Freecharge,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://freecharge.in/careers
+Freo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://freo.money/careers
+FreshToHome,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://freshtohome.com/
+Fyers,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://fyers.in/
+Gaana,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gaana.com/
+GAIL,blocked,,,,site blocks scripts (page is probably fine in a browser),https://gailonline.com/careers
+Games24x7,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://games24x7.com/
+Gameskraft,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gameskraft.com/careers
+Garuda Aerospace,dead,,,,domain does not exist,https://garudaaerospace.com/
+GeeksforGeeks,other_ats,zoho-recruit,,link,uses zoho-recruit - the agent cannot read this portal yet,https://geeksforgeeks.org/careers
+Geekster,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://geekster.in/
+Genrobotics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://genrobotics.com/careers
+Giottus,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://giottus.com/
+Giva,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://giva.co/
+GoDaddy India,blocked,,,,site blocks scripts (page is probably fine in a browser),https://godaddy.com/careers
+GoMechanic,blocked,,,,site blocks scripts (page is probably fine in a browser),https://gomechanic.in/careers
+Grab a Grub,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://grabagrub.com/careers
+Gramener,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gramener.com/careers
+Gramophone,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gramophone.in/
+Graviton Research Capital,dead,,,,connection failed,https://graviton.co.in/careers
+Great Learning,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mygreatlearning.com/careers
+greytHR,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://greythr.com/careers
+GrowthSchool,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://growthschool.io/
+Gupshup,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gupshup.io/careers
+HackerEarth,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hackerearth.com/careers
+Haptik,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://haptik.ai/careers
+Havells Tech,blocked,,,,site blocks scripts (page is probably fine in a browser),https://havells.com/careers
+Head Digital Works,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://headdigitalworks.com/careers
+Healthians,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://healthians.com/careers
+Hexaware Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hexaware.com/careers
+HFCL,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hfcl.com/careers
+Hindalco Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hindalco.com/careers
+Hinduja Global Solutions,dead,,,,domain does not exist,https://teamhgs.com/careers
+Hindustan Aeronautics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hal-india.co.in/careers
+Hirect,dead,,,,connection failed,https://hirect.in/careers
+Hitachi Energy India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hitachienergy.com/careers
+HomeLane,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://homelane.com/careers
+Hyperverge,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hyperverge.co/careers
+ideaForge,dead,,,,SSL certificate problem (try the link with/without www),https://ideaforge.co.in/careers
+Ideas2IT,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ideas2it.com/careers
+IDfy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://idfy.com/careers
+iEnergizer,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ienergizer.com/
+IIFL Finance Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://iifl.com/careers
+Imarticus,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://imarticus.org/
+Increff,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://increff.com/careers
+IndiaMART,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://indiamart.com/
+Indian Bank Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://indianbank.in/careers
+Indian Oil Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://iocl.com/careers
+Ineda Systems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://inedasystems.com/careers
+Info Edge,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://infoedge.in/
+Innefu Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://innefu.com/careers
+Innoviti,dead,,,,connection failed,https://innoviti.com/careers
+Instadapp,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://instadapp.io/
+Instahyre,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://instahyre.com/
+Instamojo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://instamojo.com/careers
+InsuranceDekho,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://insurancedekho.com/careers
+Intellect Design Arena,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://intellectdesign.com/careers
+Intellipaat,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://intellipaat.com/
+Internshala,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://internshala.com/careers
+IRCTC,dead,,,,timed out (retry; may just be slow),https://irctc.co.in/careers
+ITC Infotech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://itcinfotech.com/
+Ittiam Systems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ittiam.com/careers
+Jar App,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://myjar.app/careers
+Jigsaw Academy,blocked,,,,site blocks scripts (page is probably fine in a browser),https://jigsawacademy.com/careers
+JioCinema,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jiocinema.com/careers
+JioMart,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jiomart.com/careers
+JioSaavn,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jiosaavn.com/careers
+Jiraaf,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jiraaf.com/
+JSW Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jsw.in/careers
+Jumbotail,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jumbotail.com/careers
+Junglee Games,dead,,,,connection failed,https://jungleegames.com/careers
+Juspay,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://juspay.in/careers
+Just Dial,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://justdial.com/careers
+K7 Computing,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://k7computing.com/careers
+Kapture CX,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kapture.cx/careers
+Karbonn,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://karbonnmobiles.com/
+Karur Vysya Tech,dead,,,,domain does not exist,https://kvb.co.in/careers
+Kaynes Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kaynestechnology.co.in/
+Keka,dead,,,,SSL certificate problem (try the link with/without www),https://keka.com/careers
+Kellton Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kellton.com/careers
+Kisan Network,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kisannetwork.com/
+Kissflow,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kissflow.com/careers
+Kissht,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kissht.com/
+Kiwi Credit,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gokiwi.in/
+Knowlarity,dead,,,,SSL certificate problem (try the link with/without www),https://knowlarity.com/careers
+KPIT Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kpit.com/careers
+Kratikal,other_ats,zoho-recruit,,link,uses zoho-recruit - the agent cannot read this portal yet,https://kratikal.com/careers
+KreditBee,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kreditbee.in/careers
+Krishify,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://krishify.com/
+Krutrim,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://olakrutrim.com/careers
+Ksolves,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ksolves.com/careers
+Kuku FM,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kukufm.com/careers
+Kuvera,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kuvera.in/careers
+L&T Technology Services,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ltts.com/careers
+Larsen Infotech Legacy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lntinfotech.com/careers
+LatentView Analytics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://latentview.com/
+Lava International,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lavamobiles.com/
+LazyPay,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lazypay.in/
+LEAD School,blocked,,,,site blocks scripts (page is probably fine in a browser),https://leadschool.in/careers
+Leadsquared,blocked,,,,site blocks scripts (page is probably fine in a browser),https://leadsquared.com/careers
+Leena AI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://leena.ai/careers
+Lendingkart,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lendingkart.com/careers
+Lenskart,blocked,,,,site blocks scripts (page is probably fine in a browser),https://lenskart.com/careers
+Lentra,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lentra.ai/careers
+Leverage Edu,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://leverageedu.com/
+LG Electronics India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lg.com/
+Licious,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://licious.in/careers
+Lila Games,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lilagames.com/careers
+Loadshare Networks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://loadshare.net/careers
+Log9 Materials,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://log9materials.com/
+Lohum,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lohum.com/careers
+Loop Health,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://loophealth.com/careers
+M2P Fintech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://m2pfintech.com/careers
+Mad Street Den,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://madstreetden.com/careers
+Magicpin,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://magicpin.in/careers
+Mahindra Finance Tech,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.mahindrafinance.com/careers
+Mahindra Last Mile,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mahindralastmilemobility.com/
+Mahindra Susten,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mahindrasusten.com/careers
+Mamaearth Honasa,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://honasa.in/
+MapmyIndia,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mapmyindia.com/careers
+Masai School,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://masaischool.com/careers
+Matter Motor Works,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://matter.in/careers
+Media.net,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://media.net/careers
+Mercedes-Benz R&D India,blocked,,,,site blocks scripts (page is probably fine in a browser),https://mercedes-benz.com/careers
+Meritnation,dead,,,,domain does not exist,https://meritnation.com/careers
+Meru Cabs,dead,,,,SSL certificate problem (try the link with/without www),https://merucabs.com/careers
+Mettl,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mettl.com/careers
+Micromax,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://micromaxinfo.com/
+MilesWeb,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://milesweb.com/careers
+Milkbasket,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://milkbasket.com/
+Mindgrove Technologies,other_ats,zoho-recruit,,link,uses zoho-recruit - the agent cannot read this portal yet,https://mindgrovetech.in/careers
+Mobikwik,dead,,,,SSL certificate problem (try the link with/without www),https://mobikwik.com/careers
+MoneyView,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://moneyview.in/careers
+Moonfrog Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://moonfroglabs.com/careers
+Moschip Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://moschip.com/careers
+Mswipe,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mswipe.com/careers
+Mudrex,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mudrex.com/careers
+Muthoot Fincorp Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://muthootfincorp.com/careers
+MX Player,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mxplayer.in/
+Namma Yatri,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nammayatri.in/
+Naukri,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://naukri.com/
+Nestaway,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nestaway.com/careers
+Netcore Cloud,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://netcorecloud.com/careers
+Netmeds,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://netmeds.com/
+Netweb Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://netwebindia.com/careers
+Newgen Software,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://newgensoft.com/careers
+NewSpace Research,dead,,,,connection failed,https://newspaceresearch.com/careers
+Newton School,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://newtonschool.co/careers
+Neysa,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://neysa.ai/careers
+NIC India,dead,,,,domain does not exist,https://nic.in/careers
+Nihilent,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nihilent.com/careers
+Ninjacart,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ninjacart.com/careers
+Nitor Infotech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nitorinfotech.com/careers
+Niyo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://goniyo.com/careers
+Nodwin Gaming,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nodwingaming.com/careers
+NPCI,blocked,,,,site blocks scripts (page is probably fine in a browser),https://npci.org.in/careers
+NTPC Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ntpc.co.in/careers
+Nucleus Software,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nucleussoftware.com/careers
+Observe.AI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://observe.ai/careers
+Octro,dead,,,,server problem (500); retry later,https://octro.com/careers
+Okinawa Autotech,dead,,,,SSL certificate problem (try the link with/without www),https://okinawascooters.com/careers
+Ola Maps,dead,,,,domain does not exist,https://olamaps.io/careers
+ONDC,dead,,,,link not found (404/410),https://ondc.org/careers
+OneCard,blocked,,,,site blocks scripts (page is probably fine in a browser),https://getonecard.app/careers
+Onecard FPL Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://fplabs.tech/careers
+ONGC Digital,dead,,,,SSL certificate problem (try the link with/without www),https://ongc.co.in/careers
+Oppo India,blocked,,,,site blocks scripts (page is probably fine in a browser),https://oppo.com/careers
+Orange Health,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://orangehealth.in/careers
+Otipy,dead,,,,connection failed,https://otipy.com/careers
+Ozonetel,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ozonetel.com/careers
+Padget Electronics,dead,,,,link not found (404/410),https://padget.in/
+Paisabazaar,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://paisabazaar.com/careers
+Palmonas,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://palmonas.com/
+Paras Defence,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://parasdefence.com/
+Park+,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://parkplus.io/careers
+Pay1,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pay1.in/careers
+Paytm Money,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://paytmmoney.com/
+Pcloudy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pcloudy.com/
+Pegatron India,dead,,,,domain does not exist,https://pegatroncorp.com/careers
+Peoplestrong,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://peoplestrong.com/
+Perfios,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://perfios.com/careers
+Persistent Systems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://persistent.com/careers
+Pesto Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pesto.tech/
+PhysicsWallah,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pw.live/
+Pickrr,dead,,,,connection failed,https://pickrr.com/careers
+Pidilite Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pidilite.com/careers
+Pine Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pinelabs.com/careers
+Pitstop,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pitstop.co.in/careers
+Plotline,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://plotline.so/careers
+Pocket HRMS,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pockethrms.com/careers
+Polycab,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://polycab.com/
+Polygon Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://polygon.technology/careers
+Power Grid,dead,,,,SSL certificate problem (try the link with/without www),https://powergrid.in/careers
+Pramati Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pramati.com/
+Pratilipi,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pratilipi.com/careers
+Premier Energies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://premierenergies.com/careers
+Punjab National Bank Tech,dead,,,,timed out (retry; may just be slow),https://pnbindia.in/careers
+Pyramid IT,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pyramidci.com/careers
+Quess Corp,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://quesscorp.com/careers
+Quick Heal,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://quickheal.com/
+Quinnox,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://quinnox.com/careers
+Qyrus,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://qyrus.com/careers
+R Systems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rsystems.com/
+Raphe mPhibr,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://raphe.com/careers
+RateGain,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rategain.com/careers
+RBL Bank Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rblbank.com/careers
+Realme,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://realme.com/
+Rebel Foods,dead,,,,connection failed,https://rebelfoods.com/careers
+Recykal,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://recykal.com/
+Redcliffe Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://redcliffelabs.com/
+Reliance Jio,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jio.com/careers
+Reliance Retail Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://relianceretail.com/
+RenewBuy,dead,,,,server problem (502); retry later,https://renewbuy.com/careers
+Rentickle,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rentickle.com/careers
+Revolt Motors,dead,,,,domain does not exist,https://revoltmotors.in/careers
+Revv,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://revv.co.in/
+Rezo.ai,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rezo.ai/careers
+River Mobility,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rideriver.com/careers
+Rocketlane,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rocketlane.com/
+Route Mobile,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://routemobile.com/careers
+Router Protocol,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://routerprotocol.com/careers
+Rupeek,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rupeek.com/careers
+Sagility,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sagilityhealth.com/careers
+Sahi,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sahi.com/
+Saksoft,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://saksoft.com/careers
+Sankalp Semiconductor,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sankalpsemi.com/careers
+Sarvam AI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sarvam.ai/careers
+Sasken Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sasken.com/careers
+SatSure,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://satsure.co/careers
+Scapia,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://scapia.cards/
+Scripbox,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://scripbox.com/
+Scrut Automation,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://scrut.io/careers
+Seclore,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://seclore.com/careers
+Sensibull,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sensibull.com/
+Sequretek,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sequretek.com/
+Setu,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://setu.co/careers
+Shine.com,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://shine.com/
+Shiprocket,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://shiprocket.in/
+Shipway,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://shipway.in/
+Sify Technologies,dead,,,,connection failed,https://sifytechnology.com/careers
+Sigmoid,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sigmoid.com/careers
+Signzy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://signzy.com/careers
+Simpl,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://getsimpl.com/
+Skillenza,dead,,,,domain does not exist,https://skillenza.com/careers
+Skit.ai,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://skit.ai/careers
+Skyroot Aerospace,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://skyroot.in/careers
+Sleepy Owl,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sleepyowl.co/
+Snitch,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://snitch.co.in/
+Sona Comstar,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sonacomstar.com/
+Sonata Software,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sonata-software.com/careers
+Sony India,blocked,,,,site blocks scripts (page is probably fine in a browser),https://sony.co.in/careers
+SonyLIV,dead,,,,timed out (retry; may just be slow),https://sonyliv.com/
+Springworks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://springworks.in/careers
+Sprinto,blocked,,,,site blocks scripts (page is probably fine in a browser),https://sprinto.com/careers
+Squareboat,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://squareboat.com/careers
+Stable Money,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://stablemoney.in/
+Stanza Living,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://stanzaliving.com/careers
+Stashfin,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://stashfin.com/careers
+Steel Authority,dead,,,,SSL certificate problem (try the link with/without www),https://sail.co.in/careers
+Sterlite Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://stl.tech/
+Streak,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://streak.tech/careers
+Sugar Cosmetics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sugarcosmetics.com/careers
+Sumhr,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sumhr.com/careers
+Sunbird ED,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sunbird.org/
+SuperGaming,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://supergaming.com/
+Suyash Technologies,dead,,,,SSL certificate problem (try the link with/without www),https://suyash.com/careers
+Suzlon,dead,,,,connection failed,https://suzlon.com/careers
+Syrma SGS,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://syrmasgs.com/careers
+Tally Solutions,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tallysolutions.com/careers
+Tanla Platforms,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tanla.com/careers
+Tata AutoComp,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tataautocomp.com/careers
+Tata CLiQ,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tatacliq.com/careers
+Tata Communications,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tatacommunications.com/
+Tata Electronics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tataelectronics.com/careers
+Tata Power Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tatapower.com/careers
+Tata Steel Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tatasteel.com/careers
+TCS iON,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tcsion.com/
+Tejas Networks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tejasnetworks.com/careers
+Tessolve,dead,,,,domain does not exist,https://tessolve.com/careers
+Testbook,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://testbook.com/careers
+The Souled Store,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://thesouledstore.com/careers
+Thinkpalm,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://thinkpalm.com/careers
+Thomas Cook India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://thomascook.in/
+Tickertape,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tickertape.in/
+TimesJobs,dead,,,,SSL certificate problem (try the link with/without www),https://timesjobs.com/careers
+Tinkerhub,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tinkerhub.org/careers
+Tonbo Imaging,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tonboimaging.com/careers
+TransUnion CIBIL,blocked,,,,site blocks scripts (page is probably fine in a browser),https://transunioncibil.com/careers
+Treebo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://treebo.com/
+Trigent Software,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://trigent.com/careers
+Truemeds,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://truemeds.in/
+Ultrahuman,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ultrahuman.com/
+Ultratech Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ultratechcement.com/
+Ultraviolette,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ultraviolette.com/careers
+Uni Pay,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://uni.club/
+Unicommerce,dead,,,,timed out (retry; may just be slow),https://unicommerce.com/careers
+Union Bank Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.unionbankofindia.co.in/english/careers.aspx
+Uniphore,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://uniphore.com/careers
+Univest,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://univest.in/
+Uno Minda,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://unominda.com/
+Unocoin,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://unocoin.com/
+Unstop,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://unstop.com/careers
+Urban Ladder,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://urbanladder.com/careers
+Vahan,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vahan.ai/careers
+Vamaship,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vamaship.com/
+Vayana Network,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vayana.com/careers
+Vedanta Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vedantalimited.com/
+Verloop,blocked,,,,site blocks scripts (page is probably fine in a browser),https://verloop.io/careers
+Vested Finance,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vestedfinance.com/careers
+Vinculum,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vinculumgroup.com/careers
+Vivo India,dead,,,,link not found (404/410),https://www.vivo.com/in/careers
+Vodafone Idea,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.myvi.in/careers
+Voltas,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://voltas.com/
+Vue.ai,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vue.ai/
+VVDN Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vvdntech.com/careers
+Vyapar,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vyaparapp.in/careers
+Vymo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://getvymo.com/
+Waaree,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://waaree.com/careers
+Wadhwani AI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wadhwaniai.org/careers
+Wakefit,blocked,,,,site blocks scripts (page is probably fine in a browser),https://wakefit.co/careers
+WayCool,dead,,,,SSL certificate problem (try the link with/without www),https://waycool.in/careers
+WazirX,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wazirx.com/careers
+Web Werks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://webwerks.in/careers
+WebEngage,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://webengage.com/
+Whatfix,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://whatfix.com/careers
+Wheebox,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wheebox.com/careers
+Whirlpool India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://whirlpoolindia.com/careers
+Wint Wealth,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wintwealth.com/
+WinZO,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://winzogames.com/
+Wistron India,dead,,,,domain does not exist,https://wistron.com/careers
+WorkIndia,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://workindia.in/careers
+Wynk Music,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wynk.in/
+Xoriant,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://xoriant.com/
+XpressBees,dead,,,,link not found (404/410),https://xpressbees.com/careers
+Xtracover,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://xtracover.com/careers
+Yellow.ai,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://yellow.ai/careers
+Yotta Infrastructure,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://yotta.com/careers
+Yubi,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://go-yubi.com/careers
+Zaggle,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zaggle.in/careers
+ZebPay,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zebpay.com/careers
+ZEE5,blocked,,,,site blocks scripts (page is probably fine in a browser),https://zee5.com/careers
+Zen Technologies,other_ats,zoho-recruit,,link,uses zoho-recruit - the agent cannot read this portal yet,https://zentechnologies.com/careers
+Zerodha Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zerodha.tech/
+Zeta,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zeta.tech/careers
+Zeus Learning,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zeuslearning.com/careers
+Zimyo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zimyo.com/
+Zluri,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zluri.com/careers
+Zoho Zia Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zoho.com/careers
+Zolo Stays,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zolostays.com/careers
+Zopper,dead,,,,link not found (404/410),https://zopper.com/careers
+Zostel,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zostel.com/
+Zupee,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zupee.com/careers
+Zypp Electric,dead,,,,domain does not exist,https://zyppelectric.com/careers
+1Password,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://1password.com/careers
+2K Games,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://2k.com/careers
+8x8,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://8x8.com/careers
+A10 Networks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://a10networks.com/careers
+ABB,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://abb.com/careers
+Abnormal Security,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://abnormalsecurity.com/careers
+Acer,dead,,,,timed out (retry; may just be slow),https://acer.com/careers
+Achronix,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://achronix.com/careers
+Acquia,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://acquia.com/careers
+Acronis,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://acronis.com/careers
+Adidas Technology,dead,,,,SSL certificate problem (try the link with/without www),https://adidas-group.com/careers
+ADP,blocked,,,,site blocks scripts (page is probably fine in a browser),https://adp.com/careers
+Adyen,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://adyen.com/careers
+Affirm,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://affirm.com/careers
+Agora,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://agora.io/careers
+Airbus,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://airbus.com/careers
+Airbyte,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://airbyte.com/careers
+Airtable,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://airtable.com/careers
+Akamai,blocked,,,,site blocks scripts (page is probably fine in a browser),https://akamai.com/careers
+Alation,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://alation.com/careers
+Alchemy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://alchemy.com/careers
+Alibaba,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://alibaba.com/careers
+Alibaba Cloud,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://alibabacloud.com/careers
+Allegro Microsystems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://allegromicro.com/careers
+Alphawave,blocked,,,,site blocks scripts (page is probably fine in a browser),https://awaveip.com/careers
+Altair,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://altair.com/careers
+Alteryx,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://alteryx.com/careers
+Amazon Web Services,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://aws.amazon.com/careers
+Ambarella,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ambarella.com/careers
+AMD,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://amd.com/careers
+Amdocs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://amdocs.com/careers
+American Express Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://americanexpress.com/careers
+Ampcus,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ampcus.com/careers
+Ampere Computing,blocked,,,,site blocks scripts (page is probably fine in a browser),https://amperecomputing.com/careers
+Amplitude,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://amplitude.com/careers
+Analog Devices,dead,,,,timed out (retry; may just be slow),https://analog.com/careers
+Anaplan,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://anaplan.com/careers
+Andela,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://andela.com/careers
+Anduril,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://anduril.com/careers
+Ansys,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ansys.com/careers
+Anthropic,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://anthropic.com/careers
+Anyscale,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://anyscale.com/careers
+Apexon,blocked,,,,site blocks scripts (page is probably fine in a browser),https://apexon.com/careers
+Apollo GraphQL,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://apollographql.com/careers
+Apollo.io,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://apollo.io/careers
+AppDynamics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://appdynamics.com/careers
+Appian,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://appian.com/careers
+Applied Materials,blocked,,,,site blocks scripts (page is probably fine in a browser),https://appliedmaterials.com/careers
+Applitools,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://applitools.com/careers
+Aptiv,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://aptiv.com/careers
+Aqua Security,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://aquasec.com/careers
+Arctic Wolf,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://arcticwolf.com/careers
+Asana,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://asana.com/careers
+Ascendion,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ascendion.com/careers
+Astronomer,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://astronomer.io/careers
+Asus,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://asus.com/
+AT&T,blocked,,,,site blocks scripts (page is probably fine in a browser),https://att.com/careers
+Aurora Innovation,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://aurora.tech/careers
+Auth0,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://auth0.com/careers
+Autodesk,blocked,,,,site blocks scripts (page is probably fine in a browser),https://autodesk.com/careers
+Automation Anywhere,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://automationanywhere.com/
+Avalara,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://avalara.com/careers
+Avast,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://avast.com/careers
+Avaya,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://avaya.com/careers
+Axtria,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://axtria.com/careers
+BAE Systems,blocked,,,,site blocks scripts (page is probably fine in a browser),https://baesystems.com/careers
+Baidu,dead,,,,connection failed,https://baidu.com/careers
+Bandai Namco,blocked,,,,site blocks scripts (page is probably fine in a browser),https://bandainamcoent.co.jp/careers
+Bandwidth,blocked,,,,site blocks scripts (page is probably fine in a browser),https://bandwidth.com/careers
+Bank of America Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bankofamerica.com/careers
+Barclays Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://barclays.com/careers
+Bentley Systems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bentley.com/careers
+Best Buy Tech,dead,,,,timed out (retry; may just be slow),https://bestbuy.com/careers
+Bethesda,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bethesda.net/
+BigCommerce,blocked,,,,site blocks scripts (page is probably fine in a browser),https://bigcommerce.com/careers
+BigID,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bigid.com/
+Bill.com,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bill.com/careers
+Binance,blocked,,,,site blocks scripts (page is probably fine in a browser),https://binance.com/careers
+Bishop Fox,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bishopfox.com/careers
+Bitdefender,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bitdefender.com/careers
+Bitrix24,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bitrix24.com/
+Bitwarden,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bitwarden.com/careers
+Blackboard Anthology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://anthology.com/careers
+BlackRock Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://blackrock.com/careers
+Blizzard Entertainment,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://blizzard.com/careers
+Bloomberg,blocked,,,,site blocks scripts (page is probably fine in a browser),https://bloomberg.com/careers
+Blue Origin,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://blueorigin.com/careers
+BMW Group Tech,dead,,,,timed out (retry; may just be slow),https://bmwgroup.com/careers
+BNP Paribas Technology,blocked,,,,site blocks scripts (page is probably fine in a browser),https://bnpparibas.com/careers
+Boeing,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://boeing.com/careers
+Boomi,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://boomi.com/careers
+Bosch Global Software,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.bosch.in/careers
+Bose,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bose.com/
+Box,blocked,,,,site blocks scripts (page is probably fine in a browser),https://box.com/careers
+Braze,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://braze.com/careers
+Brex,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://brex.com/careers
+Brillio,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://brillio.com/careers
+Broadridge,ready_unverified,workday,https://broadridge.wd5.myworkdayjobs.com/Careers,link,portal found in the link; connection not tested,https://broadridge.com/careers
+BT Group,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bt.com/careers
+Bugcrowd,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bugcrowd.com/careers
+Bumble,dead,,,,connection failed,https://bumble.com/careers
+ByteDance,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bytedance.com/careers
+Cadence Design Systems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cadence.com/
+Cambium Networks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cambiumnetworks.com/careers
+Camunda,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://camunda.com/careers
+Canon,dead,,,,connection failed,https://canon.com/careers
+Canonical,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://canonical.com/careers
+Canva,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://canva.com/careers
+Capcom,dead,,,,connection failed,https://capcom.co.jp/careers
+Capital One Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://capitalone.com/
+Cerebras,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cerebras.net/careers
+Ceridian Dayforce,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://dayforce.com/
+CEVA,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ceva-ip.com/
+Chainguard,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://chainguard.dev/careers
+Chainlink Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://chainlinklabs.com/careers
+Character.AI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://character.ai/careers
+Charles Schwab Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://schwab.com/
+Charter Communications,blocked,,,,site blocks scripts (page is probably fine in a browser),https://charter.com/careers
+Checkout.com,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://checkout.com/careers
+Chegg,blocked,,,,site blocks scripts (page is probably fine in a browser),https://chegg.com/careers
+Chime,blocked,,,,site blocks scripts (page is probably fine in a browser),https://chime.com/careers
+Chronosphere,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://chronosphere.io/careers
+Ciena,blocked,,,,site blocks scripts (page is probably fine in a browser),https://ciena.com/careers
+Circle,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://circle.com/careers
+CircleCI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://circleci.com/careers
+Citadel Securities,blocked,,,,site blocks scripts (page is probably fine in a browser),https://citadelsecurities.com/careers
+Citi Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://citi.com/careers
+Clari,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://clari.com/careers
+ClickHouse,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://clickhouse.com/careers
+ClickUp,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://clickup.com/careers
+Cloudbees,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cloudbees.com/careers
+Cloudflare,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cloudflare.com/careers
+Coalfire,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://coalfire.com/careers
+Cockroach Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cockroachlabs.com/careers
+Coda,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://coda.io/careers
+Cognex,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cognex.com/
+Cohere,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cohere.com/careers
+Cohesity,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cohesity.com/careers
+Collibra,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://collibra.com/careers
+Collins Aerospace,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://collinsaerospace.com/careers
+Comcast,dead,,,,connection failed,https://comcast.com/careers
+Commercetools,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://commercetools.com/careers
+Commvault,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://commvault.com/careers
+Concentrix,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://concentrix.com/careers
+Conduent,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://conduent.com/careers
+Consensys,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://consensys.io/
+Contentful,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://contentful.com/careers
+Copado,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://copado.com/careers
+Coralogix,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://coralogix.com/careers
+Corsair,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://corsair.com/careers
+Costco IT,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://costco.com/careers
+Coupa,blocked,,,,site blocks scripts (page is probably fine in a browser),https://coupa.com/careers
+Coupang,blocked,,,,site blocks scripts (page is probably fine in a browser),https://coupang.com/careers
+Coursera,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://coursera.org/careers
+Cribl,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cribl.io/careers
+CrowdStrike,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://crowdstrike.com/careers
+Cruise Automation,dead,,,,SSL certificate problem (try the link with/without www),https://getcruise.com/careers
+CyberAgent,dead,,,,connection failed,https://cyberagent.co.jp/careers
+CyberArk,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cyberark.com/careers
+Cybereason,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://cybereason.com/careers
+Dagster Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://dagster.io/careers
+Daily.co,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://daily.co/careers
+Daimler Truck Innovation,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://daimlertruck.com/
+Danfoss,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://danfoss.com/
+Darktrace,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://darktrace.com/careers
+Dassault Systemes,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://3ds.com/careers
+Datadog,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://datadoghq.com/careers
+Datavail,other_ats,oracle-cloud,,link,uses oracle-cloud - the agent cannot read this portal yet,https://datavail.com/careers
+dbt Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://getdbt.com/careers
+DE Shaw,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://deshaw.com/careers
+Deel,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://deel.com/careers
+Deliveroo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://deliveroo.co.uk/careers
+Delivery Hero,blocked,,,,site blocks scripts (page is probably fine in a browser),https://deliveryhero.com/careers
+DeNA,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://dena.com/
+Denso,dead,,,,domain does not exist,https://denso.com/careers
+Deutsche Bank Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://db.com/careers
+Deutsche Telekom,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://telekom.com/
+Digital Realty,dead,,,,SSL certificate problem (try the link with/without www),https://digitalrealty.com/careers
+DigitalOcean,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://digitalocean.com/careers
+Discord,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://discord.com/careers
+Discover Financial,dead,,,,SSL certificate problem (try the link with/without www),https://discover.com/careers
+Docker,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://docker.com/careers
+Dolby,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://dolby.com/careers
+Domo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://domo.com/careers
+DoorDash,blocked,,,,site blocks scripts (page is probably fine in a browser),https://doordash.com/careers
+Drata,blocked,,,,site blocks scripts (page is probably fine in a browser),https://drata.com/careers
+Dremio,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://dremio.com/careers
+Dropbox Sign,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hellosign.com/
+Druva,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://druva.com/careers
+Duck Creek,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://duckcreek.com/careers
+Duolingo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://duolingo.com/careers
+Dynatrace,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://dynatrace.com/careers
+Eaton,dead,,,,timed out (retry; may just be slow),https://eaton.com/careers
+eBay,blocked,,,,site blocks scripts (page is probably fine in a browser),https://ebay.com/
+edX,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://edx.org/careers
+Efinix,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://efinixinc.com/careers
+Emerson,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://emerson.com/careers
+Endurance International,blocked,,,,site blocks scripts (page is probably fine in a browser),https://endurance.com/careers
+Env0,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://env0.com/careers
+Envestnet,blocked,,,,site blocks scripts (page is probably fine in a browser),https://envestnet.com/careers
+Epicor,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://epicor.com/careers
+Equinix,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://equinix.com/careers
+ESET,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://eset.com/
+Etsy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://etsy.com/careers
+Expel,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://expel.com/careers
+Expensify,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://expensify.com/
+Extreme Networks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://extremenetworks.com/careers
+F-Secure,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://f-secure.com/careers
+F5,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://f5.com/careers
+FactSet,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://factset.com/careers
+Fastly,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://fastly.com/careers
+Fidelity Investments Technology,blocked,,,,site blocks scripts (page is probably fine in a browser),https://fidelity.com/careers
+Figma,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://figma.com/careers
+Finastra,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://finastra.com/careers
+Firefly,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://firefly.ai/careers
+FIS,blocked,,,,site blocks scripts (page is probably fine in a browser),https://fisglobal.com/careers
+Fiserv,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://fiserv.com/careers
+Fitbit,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://fitbit.com/careers
+Five9,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://five9.com/
+Fiverr,blocked,,,,site blocks scripts (page is probably fine in a browser),https://fiverr.com/careers
+Fivetran,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://fivetran.com/careers
+Ford Global Tech,blocked,,,,site blocks scripts (page is probably fine in a browser),https://ford.com/careers
+ForgeRock,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://forgerock.com/careers
+Foxconn,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://foxconn.com/careers
+Freelancer,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://freelancer.com/careers
+Freshbooks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://freshbooks.com/careers
+Gainsight,blocked,,,,site blocks scripts (page is probably fine in a browser),https://gainsight.com/careers
+Garmin,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://garmin.com/careers
+GE Aerospace,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://geaerospace.com/careers
+Gearset,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gearset.com/careers
+General Dynamics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gd.com/careers
+General Motors Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gm.com/careers
+Genesys,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://genesys.com/careers
+Gigamon,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gigamon.com/careers
+GlobalLogic,blocked,,,,site blocks scripts (page is probably fine in a browser),https://globallogic.com/careers
+Glu Mobile,dead,,,,domain does not exist,https://glu.com/careers
+Goldman Sachs Engineering,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://goldmansachs.com/careers
+Gong,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gong.io/careers
+GoPro,blocked,,,,site blocks scripts (page is probably fine in a browser),https://gopro.com/careers
+GoTo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gotocompany.com/careers
+Grab,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://grab.careers/
+Grafana Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://grafana.com/careers
+Graphcore,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://graphcore.ai/careers
+Groq,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://groq.com/careers
+Grubhub,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://grubhub.com/careers
+Guidewire,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://guidewire.com/careers
+Gusto,blocked,,,,site blocks scripts (page is probably fine in a browser),https://gusto.com/careers
+H&M Tech,blocked,,,,site blocks scripts (page is probably fine in a browser),https://hm.com/careers
+HackerOne,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hackerone.com/careers
+HackerRank,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hackerrank.com/careers
+Harbinger Group,dead,,,,SSL certificate problem (try the link with/without www),https://harbinger-systems.com/careers
+Harman,dead,,,,SSL certificate problem (try the link with/without www),https://harman.com/careers
+Harness,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://harness.io/careers
+HashiCorp,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hashicorp.com/careers
+HeadSpin,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://headspin.io/careers
+Heap,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://heap.io/careers
+Hexagon,blocked,,,,site blocks scripts (page is probably fine in a browser),https://hexagon.com/careers
+Highspot,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://highspot.com/careers
+Hinge,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hinge.co/careers
+Home Depot Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://homedepot.com/careers
+Honda R&D,blocked,,,,site blocks scripts (page is probably fine in a browser),https://honda.com/careers
+Honeycomb,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://honeycomb.io/careers
+Hostinger,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hostinger.com/
+HSBC Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hsbc.com/careers
+HubSpot,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hubspot.com/careers
+Hudson River Trading,blocked,,,,site blocks scripts (page is probably fine in a browser),https://hudsonrivertrading.com/careers
+Hugging Face,other_ats,workable,,link,uses workable - the agent cannot read this portal yet,https://huggingface.co/careers
+Huntress,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://huntress.com/careers
+Hyundai Motor Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://hyundai.com/
+Icertis,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://icertis.com/careers
+IKEA Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ikea.com/
+Illumio,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://illumio.com/careers
+Imagination Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://imaginationtech.com/careers
+IMC Trading,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://imc.com/careers
+Immuta,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://immuta.com/careers
+Imply,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://imply.io/careers
+Infineon,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://infineon.com/careers
+Infinera,dead,,,,SSL certificate problem (try the link with/without www),https://infinera.com/careers
+Infoblox,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://infoblox.com/careers
+Infogain,dead,,,,domain does not exist,https://infogain.com/careers
+Infor,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://infor.com/careers
+Informatica,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://informatica.com/careers
+Innodata,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://innodata.com/careers
+Instacart,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://instacart.com/careers
+Instructure,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://instructure.com/careers
+Intercom,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://intercom.com/careers
+Isovalent,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://isovalent.com/careers
+Jack Henry,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jackhenry.com/careers
+Jama Software,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jamasoftware.com/careers
+Jane Street,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://janestreet.com/
+JetBrains,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jetbrains.com/careers
+JFrog,blocked,,,,site blocks scripts (page is probably fine in a browser),https://jfrog.com/careers
+Johnson Controls,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jci.com/careers
+JPMorgan Chase Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jpmorganchase.com/careers
+Just Eat Takeaway,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://justeattakeaway.com/
+Kabam,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kabam.com/careers
+Kahoot,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kahoot.com/
+Kakao,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kakaocorp.com/
+Kape Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kape.com/careers
+Kasten Veeam,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kasten.io/
+Katalon,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://katalon.com/careers
+Keysight,blocked,,,,site blocks scripts (page is probably fine in a browser),https://keysight.com/careers
+Khan Academy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://khanacademy.org/careers
+Kia Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kia.com/
+King Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://king.com/
+KLA,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://kla.com/careers
+Klarna,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://klarna.com/careers
+Konami,dead,,,,SSL certificate problem (try the link with/without www),https://konami.com/careers
+Kong,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://konghq.com/careers
+Konica Minolta,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://konicaminolta.com/
+Krafton,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://krafton.com/careers
+Kraken,dead,,,,connection failed,https://kraken.com/careers
+Kroger Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://thekrogerco.com/careers
+Lacework,dead,,,,connection failed,https://lacework.com/careers
+Lam Research,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lamresearch.com/careers
+LangChain,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://langchain.com/careers
+LastPass,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lastpass.com/
+Lattice Semiconductor,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://latticesemi.com/careers
+LaunchDarkly,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://launchdarkly.com/careers
+Lazada,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lazada.com/careers
+Lear Corporation,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lear.com/careers
+Ledger,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ledger.com/
+LeetCode,blocked,,,,site blocks scripts (page is probably fine in a browser),https://leetcode.com/careers
+Lenovo,blocked,,,,site blocks scripts (page is probably fine in a browser),https://lenovo.com/careers
+Lightstep,dead,,,,timed out (retry; may just be slow),https://lightstep.com/
+Line Corporation,blocked,,,,site blocks scripts (page is probably fine in a browser),https://linecorp.com/careers
+Linear,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://linear.app/careers
+Lockheed Martin,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lockheedmartin.com/careers
+Loft Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://loft.sh/careers
+Logitech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://logitech.com/careers
+Logz.io,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://logz.io/careers
+Lowe's Tech,blocked,,,,site blocks scripts (page is probably fine in a browser),https://lowes.com/careers
+Lucid Motors,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://lucidmotors.com/careers
+Luminar,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://luminartech.com/
+Mabl,ready_unverified,greenhouse,https://boards.greenhouse.io/mabl,link,portal found in the link; connection not tested,https://mabl.com/careers
+Magna,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://magna.com/careers
+Mailchimp,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mailchimp.com/careers
+Majesco,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://majesco.com/careers
+Mandiant,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mandiant.com/careers
+Marelli,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://marelli.com/careers
+Marqeta,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://marqeta.com/careers
+Marvell,blocked,,,,site blocks scripts (page is probably fine in a browser),https://marvell.com/careers
+Mastech Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mastechdigital.com/careers
+Mastercard,blocked,,,,site blocks scripts (page is probably fine in a browser),https://mastercard.com/careers
+Match Group,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mtch.com/careers
+Materialize,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://materialize.com/careers
+MathWorks,blocked,,,,site blocks scripts (page is probably fine in a browser),https://mathworks.com/careers
+Maxar,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://maxar.com/careers
+McAfee,blocked,,,,site blocks scripts (page is probably fine in a browser),https://mcafee.com/careers
+MediaTek,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mediatek.com/careers
+Medium,blocked,,,,site blocks scripts (page is probably fine in a browser),https://medium.com/careers
+Mendix,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mendix.com/careers
+Menlo Security,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://menlosecurity.com/careers
+Mercari,blocked,,,,site blocks scripts (page is probably fine in a browser),https://mercari.com/careers
+Microchip Technology,blocked,,,,site blocks scripts (page is probably fine in a browser),https://microchip.com/careers
+MicroStrategy,blocked,,,,site blocks scripts (page is probably fine in a browser),https://microstrategy.com/careers
+Midjourney,blocked,,,,site blocks scripts (page is probably fine in a browser),https://midjourney.com/careers
+miHoYo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mihoyo.com/careers
+Mimecast,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mimecast.com/
+Mindbody,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mindbodyonline.com/careers
+Mirantis,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mirantis.com/careers
+Miro,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://miro.com/careers
+Mistral AI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mistral.ai/careers
+Mixpanel,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mixpanel.com/careers
+Mobileum,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mobileum.com/
+Mobileye,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://mobileye.com/careers
+Monday.com,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://monday.com/careers
+Monolithic Power,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://monolithicpower.com/careers
+Monte Carlo Data,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://montecarlodata.com/careers
+Moody's,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://moodys.com/careers
+Morgan Stanley Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://morganstanley.com/careers
+Morningstar,blocked,,,,site blocks scripts (page is probably fine in a browser),https://morningstar.com/careers
+Motorola Mobility,dead,,,,server problem (500); retry later,https://motorola.com/careers
+Motorola Solutions,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://motorolasolutions.com/careers
+MSCI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://msci.com/careers
+MuleSoft,blocked,,,,site blocks scripts (page is probably fine in a browser),https://mulesoft.com/careers
+Nagarro,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nagarro.com/careers
+National Instruments,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ni.com/careers
+Naver,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://navercorp.com/
+NCC Group,other_ats,pinpoint,,link,uses pinpoint - the agent cannot read this portal yet,https://nccgroup.com/careers
+Neo4j,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://neo4j.com/careers
+Ness Digital Engineering,blocked,,,,site blocks scripts (page is probably fine in a browser),https://ness.com/careers
+NetApp,blocked,,,,site blocks scripts (page is probably fine in a browser),https://netapp.com/careers
+NetEase Games,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://neteasegames.com/careers
+Netlify,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://netlify.com/careers
+Netskope,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://netskope.com/careers
+NetSuite,blocked,,,,site blocks scripts (page is probably fine in a browser),https://netsuite.com/careers
+New Relic,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://newrelic.com/careers
+Nexon,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nexon.com/careers
+NICE,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nice.com/careers
+Nike Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nike.com/careers
+Nintendo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nintendo.co.jp/
+Nissan Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nissan-global.com/
+Nomura Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nomura.com/careers
+NordSecurity,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nordsec.com/careers
+Northern Trust Technology,ready_unverified,workday,https://ntrs.wd1.myworkdayjobs.com/northerntrust,link,portal found in the link; connection not tested,https://northerntrust.com/careers
+Northrop Grumman,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://northropgrumman.com/careers
+NortonLifeLock Gen Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://gendigital.com/careers
+Nothing Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nothing.tech/
+Notion,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://notion.so/careers
+Nutanix,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nutanix.com/careers
+Nuvei,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://nuvei.com/careers
+NXP Semiconductors,dead,,,,link not found (404/410),https://nxp.com/
+Observe Inc,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://observeinc.com/careers
+Octopus Deploy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://octopus.com/careers
+Odoo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://odoo.com/
+ON Semiconductor,blocked,,,,site blocks scripts (page is probably fine in a browser),https://onsemi.com/careers
+OnePlus,blocked,,,,site blocks scripts (page is probably fine in a browser),https://oneplus.com/careers
+OneTrust,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://onetrust.com/careers
+OpenAI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://openai.com/careers
+Optimizely,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://optimizely.com/careers
+Optiver,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://optiver.com/careers
+Orange Business,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://orange-business.com/careers
+Orca Security,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://orca.security/careers
+Otto Group Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://otto.de/
+Ouster,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ouster.com/careers
+Outreach,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://outreach.io/careers
+OutSystems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://outsystems.com/careers
+Oyster HR,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://oysterhr.com/careers
+PagerDuty,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pagerduty.com/careers
+Papaya Global,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://papayaglobal.com/careers
+Paycom,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://paycom.com/careers
+Paycor,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://paycor.com/careers
+Paylocity,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://paylocity.com/careers
+Payoneer,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://payoneer.com/
+Pega,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pega.com/careers
+Peloton,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://onepeloton.com/careers
+Perforce,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://perforce.com/careers
+Perplexity,blocked,,,,site blocks scripts (page is probably fine in a browser),https://perplexity.ai/careers
+Photon Infotech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://photon.com/careers
+Pinecone,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pinecone.io/careers
+Ping Identity,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pingidentity.com/careers
+Pipedrive,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pipedrive.com/
+Planet Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://planet.com/careers
+PlanetScale,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://planetscale.com/careers
+Platform9,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://platform9.com/careers
+Playtika,dead,,,,connection failed,https://playtika.com/careers
+Pluralsight,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pluralsight.com/careers
+Portworx,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://portworx.com/careers
+PostHog,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://posthog.com/careers
+Prefect,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://prefect.io/careers
+Prisma,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://prisma.io/careers
+Prolifics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://prolifics.com/
+Proofpoint,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://proofpoint.com/careers
+ProtonMail,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://proton.me/careers
+Provar,blocked,,,,site blocks scripts (page is probably fine in a browser),https://provartesting.com/careers
+PTC,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ptc.com/careers
+Pulumi,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://pulumi.com/careers
+Pure Storage,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://purestorage.com/careers
+Qlik,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://qlik.com/careers
+Qorvo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://qorvo.com/careers
+Qualys,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://qualys.com/careers
+Quora,blocked,,,,site blocks scripts (page is probably fine in a browser),https://quora.com/careers
+Rackspace,ready_unverified,workday,https://rackspace.wd1.myworkdayjobs.com/External,link,portal found in the link; connection not tested,https://rackspace.com/careers
+Radware,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://radware.com/careers
+Rakuten,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rakuten.com/careers
+Rambus,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rambus.com/careers
+Ramp,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ramp.com/careers
+Rancher SUSE,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rancher.com/careers
+Rapid7,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rapid7.com/careers
+Raytheon RTX,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rtx.com/careers
+Razer,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://razer.com/
+Recorded Future,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://recordedfuture.com/careers
+Red Canary,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://redcanary.com/careers
+Red Hat,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://redhat.com/careers
+Reddit,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://redditinc.com/careers
+Redpanda,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://redpanda.com/careers
+Relativity Space,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://relativityspace.com/careers
+Remitly,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://remitly.com/careers
+Remote.com,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://remote.com/careers
+Renault Nissan Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://renaultgroup.com/
+Renesas,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://renesas.com/careers
+Replit,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://replit.com/careers
+Retool,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://retool.com/careers
+Ricoh,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ricoh.com/
+RingCentral,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ringcentral.com/careers
+Riot Games,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://riotgames.com/careers
+Rippling,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rippling.com/careers
+Rivian,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rivian.com/careers
+Rocket Lab,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rocketlabusa.com/careers
+Rockwell Automation,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rockwellautomation.com/careers
+Rohde & Schwarz,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rohde-schwarz.com/
+Rolls-Royce,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rolls-royce.com/
+Rovio,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rovio.com/careers
+Rubrik,dead,,,,SSL certificate problem (try the link with/without www),https://rubrik.com/careers
+Ruckus Networks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://commscope.com/careers
+RudderStack,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://rudderstack.com/careers
+Runway,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://runwayml.com/careers
+S&P Global,blocked,,,,site blocks scripts (page is probably fine in a browser),https://spglobal.com/careers
+Safran,blocked,,,,site blocks scripts (page is probably fine in a browser),https://safran-group.com/careers
+Sage Group,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sage.com/careers
+SailPoint,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sailpoint.com/careers
+SambaNova,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sambanova.ai/careers
+Sapiens,blocked,,,,site blocks scripts (page is probably fine in a browser),https://sapiens.com/careers
+SAS Institute,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sas.com/careers
+Sauce Labs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://saucelabs.com/careers
+Scale AI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://scale.com/careers
+Schneider Electric,blocked,,,,site blocks scripts (page is probably fine in a browser),https://se.com/careers
+Scopely,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://scopely.com/careers
+Sea Limited Shopee,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sea.com/careers
+Secureframe,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://secureframe.com/careers
+Sega,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sega.com/careers
+Seismic,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://seismic.com/careers
+Semtech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://semtech.com/careers
+Sendbird,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sendbird.com/careers
+SentinelOne,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sentinelone.com/careers
+Sentry,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sentry.io/careers
+Shein,dead,,,,connection failed,https://shein.com/careers
+Shield AI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://shield.ai/careers
+Showpad,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://showpad.com/careers
+Siemens Energy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://siemens-energy.com/
+SiFive,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sifive.com/careers
+Signal,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://signal.org/careers
+Silicon Labs,blocked,,,,site blocks scripts (page is probably fine in a browser),https://silabs.com/careers
+SingleStore,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://singlestore.com/careers
+Singtel,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://singtel.com/
+Sitecore,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sitecore.com/
+Skillsoft,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://skillsoft.com/careers
+Skyworks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://skyworksinc.com/careers
+Smartsheet,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://smartsheet.com/careers
+Snap Inc,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://snap.com/
+Snyk,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://snyk.io/careers
+Societe Generale,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://societegenerale.com/
+SoFi,blocked,,,,site blocks scripts (page is probably fine in a browser),https://sofi.com/careers
+SoftBank,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://softbank.jp/careers
+Solo.io,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://solo.io/
+Sonatype,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sonatype.com/careers
+Sonos,blocked,,,,site blocks scripts (page is probably fine in a browser),https://sonos.com/careers
+Sony,blocked,,,,site blocks scripts (page is probably fine in a browser),https://sony.com/careers
+Sophos,dead,,,,timed out (retry; may just be slow),https://sophos.com/careers
+Sourcegraph,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sourcegraph.com/careers
+Spacelift,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://spacelift.io/careers
+Spire Global,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://spire.com/careers
+Split Software,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://split.io/careers
+Sprinklr,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sprinklr.com/careers
+Squarespace,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://squarespace.com/careers
+SS&C Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ssctech.com/
+Stability AI,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://stability.ai/careers
+Standard Chartered GBS,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sc.com/careers
+Starburst,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://starburst.io/careers
+Startek,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://startek.com/careers
+StarTree,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://startree.ai/careers
+State Street Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://statestreet.com/careers
+Stellantis Tech,blocked,,,,site blocks scripts (page is probably fine in a browser),https://stellantis.com/careers
+STMicroelectronics,dead,,,,timed out (retry; may just be slow),https://st.com/careers
+Stoplight,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://stoplight.io/careers
+Strava,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://strava.com/careers
+Substack,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://substack.com/careers
+Sumo Logic,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sumologic.com/careers
+Supabase,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://supabase.com/careers
+Supercell,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://supercell.com/careers
+Surfshark,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://surfshark.com/
+SUSE,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://suse.com/careers
+Swagger SmartBear,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://smartbear.com/careers
+Synaptics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://synaptics.com/careers
+Synechron,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://synechron.com/careers
+Synopsys,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://synopsys.com/careers
+Sysdig,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://sysdig.com/careers
+T-Mobile,dead,,,,connection failed,https://t-mobile.com/careers
+Tableau,blocked,,,,site blocks scripts (page is probably fine in a browser),https://tableau.com/careers
+Tailscale,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tailscale.com/careers
+Take-Two Interactive,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://take2games.com/
+Talend,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://talend.com/careers
+Target Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://target.com/careers
+Telefonica Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://telefonica.com/
+Telegram,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://telegram.org/careers
+Teleperformance,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://teleperformance.com/careers
+Telstra,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://telstra.com/careers
+Temenos,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://temenos.com/careers
+Temporal,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://temporal.io/careers
+Tenable,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tenable.com/careers
+Tencent,dead,,,,timed out (retry; may just be slow),https://tencent.com/careers
+Tenstorrent,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tenstorrent.com/careers
+Teradata,dead,,,,connection failed,https://teradata.com/careers
+Tetrate,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tetrate.io/careers
+Thales,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://thalesgroup.com/careers
+Thomson Reuters,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://thomsonreuters.com/careers
+TigerGraph,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tigergraph.com/
+TikTok,dead,,,,connection failed,https://tiktok.com/careers
+Tinder,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tinder.com/careers
+Toast,blocked,,,,site blocks scripts (page is probably fine in a browser),https://toasttab.com/careers
+Tokopedia,dead,,,,timed out (retry; may just be slow),https://tokopedia.com/careers
+Toptal,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://toptal.com/careers
+Toshiba,dead,,,,domain does not exist,https://global.toshiba/careers
+Tower Research Capital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tower-research.com/careers
+Toyota Connected,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://toyota.com/careers
+Traveloka,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://traveloka.com/careers
+Tredence,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tredence.com/careers
+Trellix,dead,,,,timed out (retry; may just be slow),https://trellix.com/careers
+Trend Micro,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://trendmicro.com/careers
+Tricentis,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tricentis.com/careers
+Trimble,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://trimble.com/careers
+Trustwave,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://trustwave.com/careers
+TSMC,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tsmc.com/
+TTEC,blocked,,,,site blocks scripts (page is probably fine in a browser),https://ttec.com/careers
+Turing,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://turing.com/
+Twingate,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://twingate.com/careers
+Twitch,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://twitch.tv/careers
+Two Sigma,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://twosigma.com/careers
+Tyk,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://tyk.io/
+Ubiquiti,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ui.com/careers
+UBS Technology,blocked,,,,site blocks scripts (page is probably fine in a browser),https://ubs.com/careers
+Udemy,blocked,,,,site blocks scripts (page is probably fine in a browser),https://udemy.com/careers
+UiPath,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://uipath.com/careers
+UKG,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://ukg.com/careers
+Unit4,blocked,,,,site blocks scripts (page is probably fine in a browser),https://unit4.com/careers
+Upwork,blocked,,,,site blocks scripts (page is probably fine in a browser),https://upwork.com/careers
+Vanguard Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vanguard.com/careers
+Vanta,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vanta.com/careers
+Varonis,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://varonis.com/careers
+Veeam,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://veeam.com/
+Vercel,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vercel.com/careers
+Verint,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://verint.com/careers
+Verisk,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://verisk.com/careers
+Veritas Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://veritas.com/careers
+Verizon,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://verizon.com/careers
+Vertex Inc,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vertexinc.com/careers
+Vestas,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vestas.com/careers
+Viavi Solutions,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://viavisolutions.com/careers
+Vimeo,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vimeo.com/careers
+Virgin Galactic,dead,,,,server problem (530); retry later,https://virgingalactic.com/careers
+Virtusa,blocked,,,,site blocks scripts (page is probably fine in a browser),https://virtusa.com/careers
+Visa,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://visa.com/careers
+Visteon,blocked,,,,site blocks scripts (page is probably fine in a browser),https://visteon.com/careers
+Vodafone,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vodafone.com/careers
+Volkswagen Digital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://volkswagen.com/careers
+Vonage,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://vonage.com/careers
+Walmart Global Tech,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://walmart.com/careers
+Wayfair,blocked,,,,site blocks scripts (page is probably fine in a browser),https://wayfair.com/careers
+Waymo,blocked,,,,site blocks scripts (page is probably fine in a browser),https://waymo.com/careers
+Weaviate,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://weaviate.io/
+Weights & Biases,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wandb.ai/careers
+Wells Fargo Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wellsfargo.com/careers
+Western Union Technology,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://westernunion.com/careers
+WhatsApp,dead,,,,server problem (400); retry later,https://whatsapp.com/careers
+Wix,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wix.com/careers
+Wiz,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wiz.io/careers
+Wolfspeed,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wolfspeed.com/careers
+WordPress VIP,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wpvip.com/careers
+Workato,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://workato.com/careers
+Xero,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://xero.com/careers
+Xiaomi,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://xiaomi.com/careers
+Xperi,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://xperi.com/careers
+Yokogawa,blocked,,,,site blocks scripts (page is probably fine in a browser),https://yokogawa.com/careers
+Yugabyte,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://yugabyte.com/careers
+Zalando,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zalando.com/careers
+Zebra Technologies,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zebra.com/careers
+Zego,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zegocloud.com/
+Zendesk,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zendesk.com/careers
+Zeotap,blocked,,,,site blocks scripts (page is probably fine in a browser),https://zeotap.com/careers
+Zerotier,blocked,,,,site blocks scripts (page is probably fine in a browser),https://zerotier.com/
+ZF Group,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zf.com/careers
+Zoom,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zoom.us/careers
+Zoom Info,blocked,,,,site blocks scripts (page is probably fine in a browser),https://zoominfo.com/careers
+Zoox,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zoox.com/careers
+ZS Associates,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zs.com/careers
+Zscaler,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.zscaler.com/careers
+Zuora,dead,,,,server problem (502); retry later,https://zuora.com/careers
+Absolutdata,dead,,,,connection failed,https://absolutdata.com/careers
+Crayon Data,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://crayondata.com/
+Manthan Systems,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://manthan.com/careers
+Indus Insights,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://indusinsights.com/
+DataWeave,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://dataweave.com/
+Bridgei2i,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bridgei2i.com/careers
+Marlabs,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://marlabs.com/careers
+Xebia,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://xebia.com/careers
+Synerzip,dead,,,,connection failed,https://synerzip.com/careers
+Intellisense.io,blocked,,,,site blocks scripts (page is probably fine in a browser),https://intellisense.io/careers
+Adroitent,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://adroitent.com/
+Josh Software,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://joshsoftware.com/
+Simform,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://simform.com/careers
+Daffodil Software,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://daffodilsw.com/careers
+Iflexion,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://iflexion.com/
+Grid Dynamics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://griddynamics.com/careers
+Softserve,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://softserveinc.com/careers
+Intetics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://intetics.com/careers
+Course Hero,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.coursehero.com/careers
+Codecademy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.codecademy.com/careers
+Wealthy,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://wealthy.in/careers
+Wow! Momo,dead,,,,link not found (404/410),https://wowmomo.com/careers
+Yes Bank,dead,,,,link not found (404/410),https://www.yesbank.in/careers
+ZunRoof,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://zunroof.com/careers
+Zydus Lifesciences,dead,,,,link not found (404/410),https://www.zyduslife.com/careers
+Zyro,dead,,,,timed out (retry; may just be slow),https://zyro.com/careers
+Zycus,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.zycus.com/careers
+Aditya Birla Capital,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.adityabirlacapital.com/careers
+Aditya Birla Fashion & Retail,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.abfrl.com/careers
+Aditya Birla Insurance Brokers,dead,,,,domain does not exist,https://www.adityabirlainsurancebrokers.com/careers
+Air India,dead,,,,timed out (retry; may just be slow),https://www.airindia.com/careers
+AirAsia India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.airindiaexpress.in/careers
+Airtel,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.airtel.com/
+Amul,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://amul.com/careers
+Anand Rathi Wealth,dead,,,,link not found (404/410),https://anandrathi.com/careers
+Apollo Hospitals,dead,,,,link not found (404/410),https://www.apollohospitals.com/careers
+Arvind Limited,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.arvind.com/careers
+Axis Bank,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.axisbank.com/careers
+Bajaj Auto,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.bajajauto.com/careers
+Bajaj Finserv,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.bajajfinserv.in/careers
+Balaji Telefilms,dead,,,,link not found (404/410),https://balajitelefilms.com/careers
+Bata India,dead,,,,timed out (retry; may just be slow),https://www.bata.in/careers
+Berger Paints India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.bergerpaints.com/careers
+Bharti AXA Life Insurance,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.bharti-axalife.com/careers
+Bharti Infratel (Indus Towers),custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.industowers.com/careers
+Biocon,dead,,,,SSL certificate problem (try the link with/without www),https://www.biocon.com/careers
+Birla Corporation,dead,,,,link not found (404/410),https://www.birlacorporation.com/careers
+Blue Dart Express,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://bluedart.com/careers
+Bombay Dyeing,dead,,,,link not found (404/410),https://bombaydyeing.com/careers
+Britannia Industries,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://britannia.co.in/careers
+Cadbury India (Mondelez),custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.mondelezinternational.com/careers
+Cadila Pharmaceuticals,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.cadilapharma.com/careers
+CarTrade Tech,dead,,,,link not found (404/410),https://www.cartrade.com/careers
+CavinKare,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.cavinkare.com/careers
+Cipla,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.cipla.com/careers
+Clovia,dead,,,,link not found (404/410),https://clovia.com/careers
+Colgate-Palmolive India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://jobs.colgate.com/
+CRISIL,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.crisil.com/en/home/careers.html
+Dabur India,dead,,,,link not found (404/410),https://www.dabur.com/careers
+Den Networks,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.dennetworks.com/careers
+Dhani Services,dead,,,,link not found (404/410),https://www.dhani.com/careers
+DLF Limited,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.dlf.in/careers
+Dr. Reddy's,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://careers.drreddys.com/
+DSP Mutual Fund,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.dspim.com/careers
+DTDC Express,dead,,,,link not found (404/410),https://www.dtdc.com/careers
+Eicher Motors,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.eicher.in/careers
+EID Parry,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.eidparry.com/careers
+EIH Limited (Oberoi Hotels),custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.oberoihotels.com/careers
+Emami Limited,dead,,,,link not found (404/410),https://www.emamiltd.in/careers
+Escorts Kubota,dead,,,,connection failed,https://www.escortsgroup.com/careers
+Edelweiss Group,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.edelweissfin.com/careers
+Emcure Pharma,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.emcure.com/careers
+Endurance Technologies,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.endurancegroup.com/careers
+Engineers India Limited (EIL),custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://engineersindia.com/careers
+Eveready Industries,dead,,,,link not found (404/410),https://www.evereadyindia.com/careers
+Finolex Cables,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.finolex.com/careers
+Fortis Healthcare,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.fortishealthcare.com/careers
+Aarti Industries,dead,,,,SSL certificate problem (try the link with/without www),https://www.aartiindustries.com/careers
+Abbott India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.abbott.com/careers
+Adani Group,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.adani.com/careers
+Adani Ports,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.adaniports.com/careers
+Adani Power,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.adanipower.com/careers
+Adani Transmission,dead,,,,domain does not exist,https://www.adanitransmission.com/careers
+Adani Wilmar,dead,,,,link not found (404/410),https://www.adaniwilmar.com/careers
+Adobe India,ready_unverified,workday,https://adobe.wd5.myworkdayjobs.com/external_experienced,link,portal found in the link; connection not tested,https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced
+Aegon Life Insurance,dead,,,,connection failed,https://www.aegonlife.com/careers
+Ajanta Pharma,dead,,,,link not found (404/410),https://www.ajantapharma.com/careers
+AkzoNobel India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.akzonobel.com/en/careers
+Alembic Pharmaceuticals,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.alembicpharmaceuticals.com/careers
+Allcargo Logistics,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.allcargologistics.com/careers
+Amara Raja Batteries,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.amararaja.com/careers
+Ambuja Cements,dead,,,,link not found (404/410),https://www.ambujacement.com/careers
+Lupin Pharmaceuticals,dead,,,,link not found (404/410),https://www.lupin.com/careers
+Lux Industries,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.luxinnerwear.com/careers
+Mahindra & Mahindra,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.mahindra.com/careers
+Marico Limited,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.marico.com/careers
+Maruti Suzuki India,custom_alive,,,,page loaded in the earlier check (not scanned for a portal),https://www.marutisuzuki.com/corporate/careers
+Max Healthcare,blocked,,,,site blocks scripts (page is probably fine in a browser),https://www.maxhealthcare.in/careers
+Muthoot Finance,dead,,,,SSL certificate problem (try the link with/without www),https://www.muthootgroup.com/careers

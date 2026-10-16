@@ -45,6 +45,19 @@ def test_batch_runs_every_company_and_role():
     assert by[("U", "Software Engineer")]["status"] == "unreachable"
 
 
+def test_profile_values_are_converted_to_the_right_types():
+    seen = {}
+
+    def spy(slug, role, max_exp, days, include_internships=True):
+        seen.update(max_exp=max_exp, days=days, inc=include_internships)
+        return {"company": slug, "status": "no_role", "scanned": 1, "jobs": []}
+
+    ja.search_company = spy
+    rb.run_one({"name": "A", "slug": "a"}, "Software Engineer",
+               {"max_exp": "2", "days": "3", "include_internships": False})
+    assert seen == {"max_exp": 2, "days": 3, "inc": False}
+
+
 def test_results_json_is_valid():
     ja.search_company, ja.search_url = fake_search_company, fake_search_url
     profile = dict(rb.DEFAULT_PROFILE)

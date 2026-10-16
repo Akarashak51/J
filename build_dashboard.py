@@ -56,12 +56,16 @@ TEMPLATE = r"""<!DOCTYPE html>
   .panel .row { padding:4px 0; border-bottom:1px solid var(--line); }
   .panel .row:last-child { border-bottom:none; }
   .bad { color:var(--bad); }
+  .live { display:flex; align-items:center; gap:10px; margin-bottom:14px; font-size:13px; color:var(--muted); }
+  .live button { padding:8px 14px; border:none; border-radius:8px; background:var(--accent); color:#fff; font-size:14px; cursor:pointer; }
+  .live button:disabled { opacity:.55; cursor:default; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>Fresher Job Dashboard</h1>
   <div class="sub" id="sub"></div>
+  <!--LIVE-->
   <div class="banner" id="stale" hidden></div>
   <div class="filters">
     <input id="q" type="search" placeholder="Search title, company, location">
@@ -106,7 +110,8 @@ const hours = (Date.now() - gen.getTime()) / 3600000;
 $('sub').textContent = 'Updated ' + gen.toLocaleString() + ' | last ' + data.profile.days +
   ' days | up to ' + data.profile.max_exp + ' yrs experience | internships ' +
   (data.profile.include_internships ? 'included' : 'excluded');
-if (hours > 24) {
+if (data.never_run) $('sub').textContent = 'No search has been run yet. Click "Refresh now" to start.';
+if (hours > 24 && !data.never_run) {
   $('stale').hidden = false;
   $('stale').textContent = 'These results are ' + Math.round(hours) +
     ' hours old. Jobs go stale in about 3 days - run run_batch.py and build_dashboard.py again.';
@@ -147,7 +152,7 @@ function render() {
   const list = $('list'); list.replaceChildren();
   if (!rows.length) {
     const e = document.createElement('div'); e.className = 'empty';
-    e.textContent = jobs.length ? 'No jobs match these filters.' : 'No matching jobs in this window. That is normal - check back after the next run.';
+    e.textContent = data.never_run ? 'Nothing to show yet - run a search first.' : jobs.length ? 'No jobs match these filters.' : 'No matching jobs in this window. That is normal - check back after the next run.';
     list.appendChild(e);
   }
   rows.forEach(j => list.appendChild(card(j)));
@@ -173,10 +178,39 @@ render();
 """
 
 
-def build_html(data: dict) -> str:
+LIVE_TOOLBAR = r"""<div class="live"><button id="refresh">Refresh now</button><span id="rstatus"></span></div>
+<script>
+(function () {
+  const btn = document.getElementById('refresh'), st = document.getElementById('rstatus');
+  async function poll() {
+    let s;
+    try { s = await (await fetch('/status')).json(); } catch (e) { st.textContent = 'Server not reachable.'; return; }
+    if (s.running) {
+      btn.disabled = true; st.textContent = 'Searching portals... this can take a minute or two.';
+      setTimeout(poll, 2000); return;
+    }
+    btn.disabled = false;
+    if (sessionStorage.getItem('refreshing')) {
+      sessionStorage.removeItem('refreshing');
+      if (!s.error) { location.reload(); return; }
+    }
+    st.textContent = s.error ? 'Last run failed: ' + s.error : '';
+  }
+  btn.onclick = async function () {
+    btn.disabled = true; sessionStorage.setItem('refreshing', '1');
+    try { await fetch('/refresh', { method: 'POST' }); } catch (e) {}
+    poll();
+  };
+  poll();
+})();
+</script>"""
+
+
+def build_html(data: dict, live: bool = False) -> str:
     # "</" is escaped so no job title can ever close the <script> tag early.
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
-    return TEMPLATE.replace("__DATA__", payload)
+    html = TEMPLATE.replace("__DATA__", payload)
+    return html.replace("<!--LIVE-->", LIVE_TOOLBAR if live else "")
 
 
 def main() -> int:

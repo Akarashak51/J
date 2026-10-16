@@ -15,6 +15,7 @@ Usage:
 
 import argparse
 import json
+import os
 import sys
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import asdict
@@ -41,14 +42,13 @@ def run_one(entry: dict, role: str, profile: dict) -> dict:
     """Search one company for one role. Never raises: problems become an 'unreachable' result."""
     name = entry.get("name") or entry.get("slug") or entry.get("url") or "?"
     try:
-        kwargs = dict(role=role,
-                      max_exp=profile.get("max_exp", 2),
-                      days=profile.get("days", 3),
-                      include_internships=profile.get("include_internships", True))
+        max_exp = int(profile.get("max_exp", 2))
+        days = int(profile.get("days", 3))
+        include = bool(profile.get("include_internships", True))
         if entry.get("url"):
-            res = ja.search_url(entry["url"], **kwargs)
+            res = ja.search_url(entry["url"], role, max_exp, days, include)
         elif entry.get("slug"):
-            res = ja.search_company(entry["slug"], **kwargs)
+            res = ja.search_company(entry["slug"], role, max_exp, days, include)
         else:
             res = {"status": "unreachable", "reason": "entry needs a 'slug' or a 'url'", "jobs": []}
     except Exception as e:  # one bad company must not stop the whole run
@@ -71,6 +71,21 @@ def serialise(results: list[dict], profile: dict) -> dict:
         item["jobs"] = [job_to_dict(j) for j in r["jobs"]]
         out.append(item)
     return {"generated_at": datetime.now(timezone.utc).isoformat(), "profile": profile, "results": out}
+
+
+def refresh(companies_path: str, profile_path: str, out_path: str, workers: int = 4) -> dict:
+    """Run the whole search and save results.json safely (used by the dashboard server)."""
+    companies = load_json(companies_path)
+    try:
+        profile = {**DEFAULT_PROFILE, **load_json(profile_path)}
+    except (OSError, json.JSONDecodeError):
+        profile = dict(DEFAULT_PROFILE)
+    data = serialise(run_batch(companies, profile, workers), profile)
+    tmp = out_path + ".tmp"                      # write aside, then swap: a crash never leaves half a file
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    os.replace(tmp, out_path)
+    return data
 
 
 def print_summary(results: list[dict], profile: dict) -> None:
