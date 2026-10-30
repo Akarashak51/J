@@ -19,14 +19,15 @@ import html
 import json
 import re
 import sys
+import threading
 import time
 import urllib.error
 import urllib.request
 from urllib.parse import urlparse
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, replace
 from datetime import datetime, timedelta, timezone
 
-__version__ = "0.2.4"
+__version__ = "0.3.2"
 
 USER_AGENT = "Mozilla/5.0 (JobAgent/0.1; personal fresher job search)"
 TIMEOUT = 15
@@ -42,7 +43,7 @@ class Job:
     company: str
     location: str
     url: str
-    source: str                 # "greenhouse" | "lever" | "workday"
+    source: str                 # "greenhouse" | "lever" | "workday" | "ashby"
     posted: datetime | None     # timezone-aware UTC, or None if unknown
     date_kind: str              # "published" | "updated" | "relative" | "unknown"
     description: str            # plain text
@@ -50,6 +51,7 @@ class Job:
     match: str = ""             # "exact" | "related"
     experience: str = ""        # "fit" | "unspecified"
     note: str = ""              # why something could not be read (shown in report)
+    min_years: int | None = None  # years of experience the posting asks for, if it says
 
 
 # --------------------------------------------------------------------------
@@ -65,7 +67,7 @@ ROLE_FAMILIES = {
         "member of technical staff", "programmer analyst", "web developer",
     ],
     "embedded": [
-        "embedded engineer", "embedded software engineer", "firmware engineer",
+        "embedded engineer", "firmware engineer",
         "iot engineer", "hardware engineer", "electronics engineer",
         "graduate engineer trainee", "embedded developer", "systems engineer",
     ],
@@ -116,9 +118,10 @@ def match_title(title: str, query: str) -> str:
         return ""
     if has_seniority(t) and not has_seniority(q):
         return ""
-    q_tokens = q.split()
-    if all(has_phrase(t, tok) for tok in q_tokens):
-        return "exact"
+    if has_phrase(t, q):
+        return "exact"                                   # e.g. 'Software Engineer II' for 'Software Engineer'
+    if all(has_phrase(t, tok) for tok in q.split()):
+        return "related"                                 # words present but not as the role: 'Field Applications Engineer, Embedded Systems'
     for fam in families_for_query(q):
         if any(has_phrase(t, a) for a in ROLE_FAMILIES[fam]):
             return "related"
@@ -145,45 +148,65 @@ NOT_A_REQUIREMENT_BEFORE = re.compile(
 NOT_A_REQUIREMENT_AFTER = re.compile(
     r"\s*(vesting|plan|degree|program|contract|term|bond|ago|old|anniversary|warranty|lease)\b",
     re.IGNORECASE)
-REQUIREMENT_HEADERS = re.compile(
-    r"what we need to see|minimum qualifications|basic qualifications|qualifications|"
-    r"requirements|what you.?ll need|what you need|who you are|required skills|you have",
+# Headings that introduce hard requirements, and ones that introduce optional extras.
+REQUIRED_MARKER_RE = re.compile(
+    r"minimum (?:qualifications|requirements?)|basic qualifications|required qualifications|"
+    r"requirements?|what we need to see|what you.?ll need|what you need|must have|who you are",
     re.IGNORECASE)
-END_OF_REQUIREMENTS = re.compile(
-    r"ways to stand out|preferred qualifications|nice to have|bonus points|"
-    r"what we offer|benefits|compensation|base salary", re.IGNORECASE)
+PREFERRED_MARKER_RE = re.compile(
+    r"preferred|nice to have|good to have|bonus|ways to stand out|a plus|desirable", re.IGNORECASE)
 
 
-def requirements_section(text: str) -> str:
-    """The 'requirements' part of a posting if we can find it, else the whole text."""
-    m = REQUIREMENT_HEADERS.search(text)
-    if not m:
-        return text
-    rest = text[m.start():]
-    stop = END_OF_REQUIREMENTS.search(rest, m.end() - m.start())
-    return rest[:stop.start()] if stop else rest
+def _context(text: str, pos: int) -> str:
+    """'required', 'preferred' or 'none': which kind of heading came last before this position."""
+    last_req = last_pref = -1
+    for m in REQUIRED_MARKER_RE.finditer(text, 0, pos):
+        last_req = m.end()
+    for m in PREFERRED_MARKER_RE.finditer(text, 0, pos):
+        last_pref = m.end()
+    if last_req < 0 and last_pref < 0:
+        return "none"
+    return "required" if last_req > last_pref else "preferred"
 
 
 def min_years_required(text: str) -> int | None:
-    """Lowest 'N years' figure that looks like a requirement, or None."""
-    section = requirements_section(text)
-    lows = []
-    for m in YEARS_RE.finditer(section):
-        before = section[max(0, m.start() - 20):m.start()]
-        after = section[m.end():m.end() + 60]
-        mentions_experience = "experience" in after.lower()
-        if NOT_A_REQUIREMENT_BEFORE.search(before) and not mentions_experience:
+    """Years of experience the posting asks for, or None.
+    Figures under a 'preferred / bonus' heading are ignored. If there are figures under a 'requirements'
+    heading, the largest counts (a fresher must meet all of them). Otherwise the smallest loose figure counts."""
+    required, neutral = [], []
+    for m in YEARS_RE.finditer(text):
+        before = text[max(0, m.start() - 20):m.start()]
+        after = text[m.end():m.end() + 60]
+        if NOT_A_REQUIREMENT_BEFORE.search(before) and "experience" not in after.lower():
             continue                      # e.g. "for more than 25 years"
-        if NOT_A_REQUIREMENT_AFTER.match(section, m.end()):
+        if NOT_A_REQUIREMENT_AFTER.match(text, m.end()):
             continue                      # e.g. "4 year vesting plan", "4 year degree"
-        lows.append(int(m.group(1)))
-    return min(lows) if lows else None
+        context = _context(text, m.start())
+        if context == "preferred":
+            continue
+        (required if context == "required" else neutral).append(int(m.group(1)))
+    if required:
+        return max(required)
+    return min(neutral) if neutral else None
+
+
+PHD_IN_TITLE_RE = re.compile(r"\bph\.?\s?d\b", re.IGNORECASE)
+PHD_REQUIRED_RE = re.compile(
+    r"(?:ph\.?\s?d\.?\s+(?:student|candidate)s?|pursuing\s+an?\s+ph\.?\s?d|enrolled\s+in\s+an?\s+ph\.?\s?d)",
+    re.IGNORECASE)
+
+
+def requires_phd(title: str, description: str) -> bool:
+    """A PhD-student internship is not open to a new graduate. 'PhD preferred' does not count."""
+    return bool(PHD_IN_TITLE_RE.search(title) or PHD_REQUIRED_RE.search(description))
 
 
 def classify_experience(title: str, description: str, max_exp: int) -> str:
     """Return 'fit', 'unspecified' or 'reject'."""
     title_n, desc_n = norm(title), norm(description)
     if has_seniority(title_n):
+        return "reject"
+    if requires_phd(title, description):
         return "reject"
     years = min_years_required(f"{title}. {description}")
     if years is not None and years > max_exp:
@@ -310,6 +333,29 @@ def fetch_lever(slug: str) -> list[Job]:
     return jobs
 
 
+def fetch_ashby(slug: str) -> list[Job]:
+    data = http_get_json(f"https://api.ashbyhq.com/posting-api/job-board/{slug}")
+    jobs = []
+    for j in (data.get("jobs") or []) if isinstance(data, dict) else []:
+        if j.get("isListed") is False:
+            continue                                   # unlisted = not public on the board
+        posted = parse_iso(j.get("publishedAt"))
+        job = Job(
+            title=j.get("title", ""),
+            company=slug,
+            location=j.get("location") or "",
+            url=j.get("jobUrl") or j.get("applyUrl") or "",
+            source="ashby",
+            posted=posted,
+            date_kind="published" if posted else "unknown",
+            description=j.get("descriptionPlain") or strip_html(j.get("descriptionHtml", "")),
+        )
+        if str(j.get("employmentType", "")).lower() == "intern":
+            job.job_type = "internship"
+        jobs.append(job)
+    return jobs
+
+
 # ---- Workday ----------------------------------------------------------
 
 WORKDAY_LOCALE_RE = re.compile(r"^[a-z]{2}(-[A-Za-z]{2})?$")
@@ -329,6 +375,8 @@ def detect_from_url(url: str) -> dict | None:
         return {"ats": "greenhouse", "slug": parts[0]}
     if host in ("jobs.lever.co", "jobs.eu.lever.co") and parts:
         return {"ats": "lever", "slug": parts[0]}
+    if host == "jobs.ashbyhq.com" and parts:
+        return {"ats": "ashby", "slug": parts[0]}
     return None
 
 
@@ -403,7 +451,38 @@ def fetch_workday(host: str, tenant: str, site: str, role: str, days: int,
     return job_list
 
 
-ADAPTERS = {"greenhouse": fetch_greenhouse, "lever": fetch_lever}
+ADAPTERS = {"greenhouse": fetch_greenhouse, "lever": fetch_lever, "ashby": fetch_ashby}
+
+_BOARD_CACHE: dict = {}
+_BOARD_LOCKS: dict = {}
+_BOARD_GUARD = threading.Lock()
+
+
+def clear_board_cache() -> None:
+    """Forget downloaded boards. Called at the start of every batch so results are always fresh."""
+    with _BOARD_GUARD:
+        _BOARD_CACHE.clear()
+        _BOARD_LOCKS.clear()
+
+
+def fetch_board_cached(name: str, slug: str) -> list[Job]:
+    """Download a board once per batch, even when several roles (threads) ask for it."""
+    key = (name, slug)
+    with _BOARD_GUARD:
+        lock = _BOARD_LOCKS.setdefault(key, threading.Lock())
+    with lock:
+        if key in _BOARD_CACHE:
+            hit = _BOARD_CACHE[key]
+            if isinstance(hit, Exception):
+                raise hit
+            return hit
+        try:
+            jobs = ADAPTERS[name](slug)
+        except (PortalNotFound, PortalError) as e:
+            _BOARD_CACHE[key] = e
+            raise
+        _BOARD_CACHE[key] = jobs
+        return jobs
 
 
 # --------------------------------------------------------------------------
@@ -415,7 +494,8 @@ def filter_jobs(jobs: list[Job], role: str, max_exp: int, days: int,
     now = now or datetime.now(timezone.utc)
     cutoff = now - timedelta(days=days)
     kept = []
-    for job in jobs:
+    for original in jobs:
+        job = replace(original)                     # work on a copy: the same board is shared by several roles
         m = match_title(job.title, role)
         if not m:
             continue
@@ -433,6 +513,7 @@ def filter_jobs(jobs: list[Job], role: str, max_exp: int, days: int,
             elif job.posted < cutoff:
                 continue
         job.match, job.experience = m, exp
+        job.min_years = min_years_required(f"{job.title}. {job.description}")
         kept.append(job)
 
     far_past = datetime.min.replace(tzinfo=timezone.utc)
@@ -472,9 +553,9 @@ def _run_search(label: str, fetchers: list, role: str, max_exp: int, days: int,
 def search_company(slug: str, role: str, max_exp: int, days: int,
                    include_internships: bool = True) -> dict:
     """Try Greenhouse and Lever using a company slug."""
-    fetchers = [(n, (lambda f=f: f(slug))) for n, f in ADAPTERS.items()]
+    fetchers = [(n, (lambda n=n: fetch_board_cached(n, slug))) for n in ADAPTERS]
     return _run_search(slug, fetchers, role, max_exp, days, include_internships,
-                       "not found on Greenhouse or Lever - paste its careers page link with --url instead")
+                       "not found on Greenhouse, Lever or Ashby - paste its careers page link with --url instead")
 
 
 def search_url(url: str, role: str, max_exp: int, days: int,
@@ -483,13 +564,13 @@ def search_url(url: str, role: str, max_exp: int, days: int,
     d = detect_from_url(url)
     if d is None:
         return {"company": url, "status": "unreachable", "jobs": [],
-                "reason": "portal type not recognised (supported: Workday, Greenhouse, Lever links)"}
+                "reason": "portal type not recognised (supported: Workday, Greenhouse, Lever, Ashby links)"}
     if d["ats"] == "workday":
         label = f"{d['tenant']} (workday)"
         fetchers = [("workday", lambda: fetch_workday(d["host"], d["tenant"], d["site"], role, days))]
     else:
         label = f"{d['slug']} ({d['ats']})"
-        fetchers = [(d["ats"], lambda: ADAPTERS[d["ats"]](d["slug"]))]
+        fetchers = [(d["ats"], lambda: fetch_board_cached(d["ats"], d["slug"]))]
     return _run_search(label, fetchers, role, max_exp, days, include_internships,
                        "careers site not found - check the link")
 
@@ -561,4 +642,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-    

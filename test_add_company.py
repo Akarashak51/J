@@ -34,13 +34,19 @@ def test_check_slug_cases():
     def down(slug):
         raise ja.PortalError("HTTP 500")
 
-    ja.ADAPTERS["greenhouse"], ja.ADAPTERS["lever"] = (lambda s: [1] * 5), missing
+    def set_adapters(greenhouse, lever, ashby):
+        ja.ADAPTERS["greenhouse"], ja.ADAPTERS["lever"], ja.ADAPTERS["ashby"] = greenhouse, lever, ashby
+
+    set_adapters(lambda s: [1] * 5, missing, missing)
     ok, msg = ac.check({"slug": "a"})
     assert ok and "Greenhouse (5 postings)" in msg
-    ja.ADAPTERS["greenhouse"], ja.ADAPTERS["lever"] = missing, missing
+    set_adapters(missing, missing, lambda s: [1, 2])
+    ok, msg = ac.check({"slug": "a"})
+    assert ok and "Ashby (2 postings)" in msg
+    set_adapters(missing, missing, missing)
     ok, msg = ac.check({"slug": "a"})
     assert not ok and "paste its careers page link" in msg
-    ja.ADAPTERS["greenhouse"], ja.ADAPTERS["lever"] = down, missing
+    set_adapters(down, missing, missing)
     ok, msg = ac.check({"slug": "a"})
     assert not ok and "HTTP 500" in msg
 

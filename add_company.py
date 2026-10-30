@@ -6,7 +6,7 @@ Usage:
   python add_company.py "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
   python add_company.py "https://boards.greenhouse.io/stripe" --name Stripe
   python add_company.py "https://jobs.lever.co/spotify"
-  python add_company.py stripe                 (a bare slug is tried on Greenhouse and Lever)
+  python add_company.py stripe                 (a bare slug is tried on Greenhouse, Lever and Ashby)
   python add_company.py <link> --no-check      (add without testing the connection)
 
 How to get the link: open the company's careers page, go to its job search page,
@@ -44,7 +44,7 @@ def check(entry: dict) -> tuple[bool, str]:
             d = ja.detect_from_url(entry["url"])
             if d is None:
                 return False, ("portal not recognised. Supported links: Workday (myworkdayjobs.com), "
-                               "Greenhouse (boards.greenhouse.io), Lever (jobs.lever.co)")
+                               "Greenhouse (boards.greenhouse.io), Lever (jobs.lever.co), Ashby (jobs.ashbyhq.com)")
             if d["ats"] == "workday":
                 base = f"https://{d['host']}/wday/cxs/{d['tenant']}/{d['site']}"
                 data = ja.http_post_json(f"{base}/jobs", {
@@ -65,7 +65,7 @@ def check(entry: dict) -> tuple[bool, str]:
             return True, "found on " + " and ".join(found)
         if errors:
             return False, "could not reach it: " + "; ".join(errors)
-        return False, ("slug not found on Greenhouse or Lever. If the company uses Workday "
+        return False, ("slug not found on Greenhouse, Lever or Ashby. If the company uses Workday "
                        "or another portal, paste its careers page link instead")
     except ja.PortalNotFound:
         return False, "careers site not found - check the link"

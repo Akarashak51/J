@@ -130,7 +130,8 @@ function card(j) {
   const b = document.createElement('div'); b.className = 'badges';
   b.appendChild(badge(j.match === 'exact' ? 'Exact title' : 'Related title', j.match === 'exact' ? 'ok' : ''));
   b.appendChild(badge(j.job_type === 'internship' ? 'Internship' : 'Full-time'));
-  if (j.experience === 'fit') b.appendChild(badge('Experience fits', 'ok'));
+  if (j.min_years != null && j.min_years > 0) b.appendChild(badge('Asks for ' + j.min_years + '+ yrs', 'warn'));
+  else if (j.experience === 'fit') b.appendChild(badge('Experience fits', 'ok'));
   else b.appendChild(badge(j.description ? 'Experience not stated' : 'Experience unverified', 'warn'));
   if (j.date_kind !== 'published') b.appendChild(badge('Date approximate', 'warn'));
   [...j.roles].forEach(r => b.appendChild(badge('for: ' + r)));

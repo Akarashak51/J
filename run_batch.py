@@ -17,7 +17,8 @@ import argparse
 import json
 import os
 import sys
-from concurrent.futures import ThreadPoolExecutor
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import asdict
 from datetime import datetime, timezone
 
@@ -58,10 +59,25 @@ def run_one(entry: dict, role: str, profile: dict) -> dict:
     return res
 
 
-def run_batch(companies: list[dict], profile: dict, workers: int = 4) -> list[dict]:
+def _elapsed(start: float) -> str:
+    seconds = int(time.time() - start)
+    return f"{seconds // 60}m{seconds % 60:02d}s"
+
+
+def run_batch(companies: list[dict], profile: dict, workers: int = 4, progress=print) -> list[dict]:
+    ja.clear_board_cache()                      # every batch starts with fresh downloads
     pairs = [(c, r) for r in profile["roles"] for c in companies]
+    results: list = [None] * len(pairs)
+    start = time.time()
     with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
-        return list(pool.map(lambda cr: run_one(cr[0], cr[1], profile), pairs))
+        futures = {pool.submit(run_one, c, r, profile): i for i, (c, r) in enumerate(pairs)}
+        done = 0
+        for fut in as_completed(futures):
+            results[futures[fut]] = fut.result()           # run_one never raises, and the order stays stable
+            done += 1
+            if progress and (done % 25 == 0 or done == len(pairs)):
+                progress(f"  ...{done}/{len(pairs)} searches done ({_elapsed(start)})")
+    return results
 
 
 def serialise(results: list[dict], profile: dict) -> dict:

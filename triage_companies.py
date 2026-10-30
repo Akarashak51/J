@@ -424,6 +424,29 @@ def make_hint(rec: dict) -> str:
     return "open the link and check"
 
 
+def sample_jobs(rec: dict, n: int = 3) -> str:
+    """A few real job titles from the guessed board, so you can tell if it is the right company."""
+    d = ja.detect_from_url(rec.get("entry_url", ""))
+    if not d or d["ats"] == "workday":
+        return ""
+    try:
+        with HOST_GATE:
+            time.sleep(GATE_DELAY)
+            jobs = ja.ADAPTERS[d["ats"]](d["slug"])
+    except (ja.PortalError, ja.PortalNotFound) as e:
+        return f"could not load the board: {e}"
+    return " | ".join(f"{j.title} ({j.location or 'location n/a'})" for j in jobs[:n]) or "the board has no jobs"
+
+
+def enrich_guesses(cache: dict, workers: int = 4) -> int:
+    """Fill sample_jobs for every guess that does not have it yet. Returns how many were filled."""
+    todo = [r for r in cache.values() if r.get("bucket") == "guess" and not r.get("sample_jobs")]
+    with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
+        for rec, text in zip(todo, pool.map(sample_jobs, todo)):
+            rec["sample_jobs"] = text
+    return len(todo)
+
+
 def audit_cache(cache: dict) -> int:
     """Re-judge old 'probe-confirmed' Greenhouse matches with the strict rule. Returns how many were demoted."""
     demoted = 0
@@ -437,51 +460,90 @@ def audit_cache(cache: dict) -> int:
     return demoted
 
 
+def read_csv_rows(path: str) -> list[dict]:
+    """Read a CSV that Excel may have saved as UTF-8 (with or without BOM) or as Windows-1252."""
+    for encoding in ("utf-8-sig", "cp1252"):
+        try:
+            with open(path, encoding=encoding, newline="") as f:
+                return list(csv.DictReader(f))
+        except UnicodeDecodeError:
+            continue
+    raise ValueError(f"{path}: cannot read the file's text encoding - save it again as CSV (or CSV UTF-8)")
+
+
+def saved_answers(review_path: str) -> dict:
+    """Your yes/no answers already typed in review.csv, so rewriting the file never erases them."""
+    try:
+        rows = read_csv_rows(review_path)
+    except (OSError, ValueError):
+        return {}
+    return {r["original_url"]: r["approve"].strip() for r in rows
+            if r.get("original_url") and (r.get("approve") or "").strip()}
+
+
 def apply_review(cache: dict, review_path: str) -> tuple[int, int]:
     """Read review.csv: approve = yes -> ready, approve = no -> rejected. Returns (approved, rejected)."""
     approved = rejected = 0
-    with open(review_path, encoding="utf-8-sig", newline="") as f:
-        for row in csv.DictReader(f):
-            rec = cache.get(row.get("original_url", ""))
-            answer = (row.get("approve") or "").strip().lower()
-            if rec is None or rec.get("bucket") not in ("guess", "rejected"):
-                continue
-            if answer in ("y", "yes", "1", "true") and rec["bucket"] != "ready":
-                rec.update(bucket="ready", evidence="manual", detail="approved by you in review.csv")
-                approved += 1
-            elif answer in ("n", "no", "0", "false") and rec["bucket"] != "rejected":
-                rec.update(bucket="rejected", detail="rejected by you in review.csv")
-                rejected += 1
+    for row in read_csv_rows(review_path):
+        rec = cache.get(row.get("original_url", ""))
+        answer = (row.get("approve") or "").strip().lower()
+        if rec is None or rec.get("bucket") not in ("guess", "rejected"):
+            continue
+        if answer in ("y", "yes", "1", "true") and rec["bucket"] != "ready":
+            rec.update(bucket="ready", evidence="manual", detail="approved by you in review.csv")
+            approved += 1
+        elif answer in ("n", "no", "0", "false") and rec["bucket"] != "rejected":
+            rec.update(bucket="rejected", detail="rejected by you in review.csv")
+            rejected += 1
     return approved, rejected
+
+
+def _write_csv_safely(path: str, fieldnames: list, rows: list, locked: list) -> None:
+    """Write a CSV. If another program (usually Excel) has it open, remember that instead of crashing."""
+    try:
+        with open(path, "w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+            w.writeheader()
+            w.writerows(rows)
+    except PermissionError:
+        locked.append(os.path.basename(path))
 
 
 def write_outputs(records: list[dict], out_dir: str) -> dict:
     os.makedirs(out_dir, exist_ok=True)
+    locked: list = []
     fields = ["company", "bucket", "ats", "entry_url", "evidence", "detail", "original_url"]
 
-    def write_csv(name, recs):
-        with open(os.path.join(out_dir, name), "w", encoding="utf-8", newline="") as f:
-            w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
-            w.writeheader()
-            w.writerows(recs)
-
-    write_csv("report.csv", records)
-    write_csv("guesses_to_confirm.csv", [r for r in records if r["bucket"] == "guess"])
-    write_csv("needs_new_link.csv", [r for r in records if r["bucket"] == "dead"])
-    review_fields = ["company", "ats", "entry_url", "detail", "hint", "approve", "original_url"]
-    with open(os.path.join(out_dir, "review.csv"), "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=review_fields, extrasaction="ignore")
-        w.writeheader()
-        for r in records:
-            if r["bucket"] == "guess":
-                w.writerow({**r, "hint": make_hint(r), "approve": ""})
+    # ready.json first: it is what the merge needs, and it must not depend on any CSV being closed
     ready, seen_urls = [], set()
     for r in records:
         if r["bucket"] in ("ready", "ready_unverified") and r["entry_url"] not in seen_urls:
             seen_urls.add(r["entry_url"])                    # two companies sharing one board count once
             ready.append({"name": r["company"], "url": r["entry_url"]})
-    save_json_atomic(os.path.join(out_dir, "ready.json"), ready)
-    return {"ready": ready}
+    try:
+        save_json_atomic(os.path.join(out_dir, "ready.json"), ready)
+    except PermissionError:
+        locked.append("ready.json")
+
+    review_path = os.path.join(out_dir, "review.csv")
+    answers = saved_answers(review_path)                     # read BEFORE rewriting, so answers survive
+    review_rows = [{**r, "hint": make_hint(r), "approve": answers.get(r["original_url"], "")}
+                   for r in records if r["bucket"] == "guess"]
+    review_fields = ["company", "ats", "entry_url", "sample_jobs", "detail", "hint", "approve", "original_url"]
+
+    _write_csv_safely(os.path.join(out_dir, "report.csv"), fields, records, locked)
+    _write_csv_safely(os.path.join(out_dir, "guesses_to_confirm.csv"), fields,
+                      [r for r in records if r["bucket"] == "guess"], locked)
+    _write_csv_safely(os.path.join(out_dir, "needs_new_link.csv"), fields,
+                      [r for r in records if r["bucket"] == "dead"], locked)
+    _write_csv_safely(review_path, review_fields, review_rows, locked)
+    return {"ready": ready, "locked": locked}
+
+
+def warn_if_locked(out: dict) -> None:
+    if out.get("locked"):
+        print("\nWARNING: could not update " + ", ".join(out["locked"]) + " because another program has it open "
+              "(usually Excel). Close it and run the same command again. Nothing you typed in review.csv was lost.")
 
 
 def print_summary(records: list[dict]) -> None:
@@ -528,19 +590,23 @@ def main() -> int:
                    help="re-check companies filed as 'portal not supported yet' (after a new adapter is added)")
     p.add_argument("--audit", action="store_true",
                    help="no internet: re-judge saved results with the strict name rule and rewrite the outputs")
+    p.add_argument("--enrich-review", action="store_true",
+                   help="add a few real job titles next to each guess in review.csv (needs internet)")
     p.add_argument("--apply-review", metavar="REVIEW_CSV",
                    help="no internet: apply your yes/no answers from review.csv")
     p.add_argument("--merge", metavar="COMPANIES_JSON", help="add the 'ready' companies to this list")
     args = p.parse_args()
 
     cache_path = os.path.join(args.out, "triage_cache.json")
-    if args.audit or args.apply_review:
+    if args.audit or args.apply_review or args.enrich_review:
         cache = load_cache(cache_path)
         if not cache:
             print(f"No saved results at {cache_path}. Run the full triage first.")
             return 1
         if args.audit:
             print(f"Audit: {audit_cache(cache)} weak name-only match(es) moved to review.csv")
+        if args.enrich_review:
+            print(f"Looked up sample jobs for {enrich_guesses(cache, args.workers)} guess(es)")
         if args.apply_review:
             try:
                 yes, no = apply_review(cache, args.apply_review)
@@ -553,6 +619,7 @@ def main() -> int:
         out = write_outputs(records, args.out)
         print_summary(records)
         print(f"\nFiles in {args.out}/ : report.csv, ready.json, review.csv, needs_new_link.csv")
+        warn_if_locked(out)
         return merge_ready(out, args.merge) if args.merge else 0
 
     try:
@@ -570,6 +637,7 @@ def main() -> int:
     out = write_outputs(records, args.out)
     print_summary(records)
     print(f"\nFiles in {args.out}/ : report.csv, ready.json, review.csv, guesses_to_confirm.csv, needs_new_link.csv")
+    warn_if_locked(out)
 
     if args.merge:
         return merge_ready(out, args.merge)

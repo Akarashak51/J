@@ -3,6 +3,7 @@ import csv
 import json
 import os
 import tempfile
+from typing import cast
 
 import add_company as ac
 import job_agent as ja
@@ -24,7 +25,8 @@ def test_find_ats_in_html():
     assert hits[0]["entry_url"] == "https://acme.wd5.myworkdayjobs.com/AcmeCareers"
     assert hits[1]["entry_url"] == "https://boards.greenhouse.io/acme"
     assert hits[2]["entry_url"] == "https://jobs.lever.co/acme-inc"
-    assert tr.choose(hits)["ats"] == "workday"
+    chosen = tr.choose(hits)
+    assert chosen is not None and chosen["ats"] == "workday"
 
 
 def test_ashby_is_now_supported_in_triage():
@@ -241,6 +243,87 @@ def test_review_roundtrip_and_deduped_outputs():
         assert cache["g1"]["bucket"] == "ready" and cache["g1"]["evidence"] == "manual"
         assert cache["g2"]["bucket"] == "rejected" and cache["g3"]["bucket"] == "guess"   # blank = still undecided
         assert tr.apply_review(cache, os.path.join(tmp, "review.csv")) == (0, 0)          # safe to apply twice
+
+
+def test_enrich_review_adds_real_job_titles():
+    class J:
+        def __init__(self, title, location):
+            self.title, self.location = title, location
+
+    ja.ADAPTERS["lever"] = lambda slug: cast(
+        list[ja.Job], [J("Backend Engineer", "Bengaluru"), J("Designer", ""), J("PM", "Pune"), J("Extra", "x")]
+    )
+
+    def broken(slug):
+        raise ja.PortalError("HTTP 500")
+
+    ja.ADAPTERS["greenhouse"] = broken
+    cache = {"a": rec("CRED", "guess", "probe-guess", "x", ats="lever", url="https://jobs.lever.co/cred", orig="a"),
+             "b": rec("Foo", "guess", "probe-guess", "x", url="https://boards.greenhouse.io/foo", orig="b"),
+             "c": rec("Wd", "guess", "probe-guess", "x", ats="workday", url="https://x.wd5.myworkdayjobs.com/S", orig="c"),
+             "d": rec("Done", "ready", url="https://jobs.lever.co/d", orig="d")}
+    assert tr.enrich_guesses(cache) == 3
+    assert cache["a"]["sample_jobs"] == "Backend Engineer (Bengaluru) | Designer (location n/a) | PM (Pune)"
+    assert "could not load the board" in cache["b"]["sample_jobs"] and cache["c"]["sample_jobs"] == ""
+    assert "sample_jobs" not in cache["d"]
+    with tempfile.TemporaryDirectory() as tmp:
+        tr.write_outputs(list(cache.values()), tmp)
+        rows = list(csv.DictReader(open(os.path.join(tmp, "review.csv"), encoding="utf-8")))
+        assert rows[0]["sample_jobs"].startswith("Backend Engineer (Bengaluru)")
+
+
+def _guess(company, orig):
+    return rec(company, "guess", "probe-guess", "Lever board 'x' has 3 jobs", ats="lever",
+               url=f"https://jobs.lever.co/{orig}", orig=orig)
+
+
+def test_your_answers_survive_when_review_csv_is_rewritten():
+    records = [_guess("CRED", "g1"), _guess("Maybe", "g2"), _guess("Later", "g3")]
+    with tempfile.TemporaryDirectory() as tmp:
+        tr.write_outputs(records, tmp)
+        path = os.path.join(tmp, "review.csv")
+        rows = list(csv.DictReader(open(path, encoding="utf-8")))
+        rows[0]["approve"], rows[1]["approve"] = "yes", "maybe"
+        with open(path, "w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=list(rows[0]))
+            w.writeheader()
+            w.writerows(rows)
+        tr.write_outputs(records, tmp)                                  # e.g. --audit or --enrich-review run again
+        again = {r["company"]: r["approve"] for r in csv.DictReader(open(path, encoding="utf-8"))}
+        assert again == {"CRED": "yes", "Maybe": "maybe", "Later": ""}  # nothing erased
+
+
+def test_locked_file_gives_a_warning_not_a_crash_and_ready_json_is_still_written():
+    records = [_guess("CRED", "g1"), rec("Stripe", "ready", "page", "ok", url="https://boards.greenhouse.io/stripe", orig="r1")]
+    real_open = open
+
+    def fake_open(path, *args, **kwargs):                               # Windows + Excel: these two files are locked
+        if str(path).endswith(("review.csv", "report.csv")) and args and "w" in args[0]:
+            raise PermissionError(13, "Permission denied", str(path))
+        return real_open(path, *args, **kwargs)
+
+    with tempfile.TemporaryDirectory() as tmp:
+        tr.__dict__.pop("open", None)
+        try:
+            out = tr.write_outputs(records, tmp)
+        finally:
+            tr.__dict__.pop("open", None)
+        assert sorted(out["locked"]) == ["report.csv", "review.csv"]
+        assert out["ready"] == [{"name": "Stripe", "url": "https://boards.greenhouse.io/stripe"}]
+        assert json.load(open(os.path.join(tmp, "ready.json"))) == out["ready"]     # the merge input never depends on Excel
+        assert os.path.exists(os.path.join(tmp, "needs_new_link.csv"))              # unlocked files were still written
+
+
+def test_csv_saved_by_excel_in_windows_encoding_is_readable():
+    with tempfile.TemporaryDirectory() as tmp:
+        path = os.path.join(tmp, "review.csv")
+        text = "company,original_url,approve,sample_jobs\nCaf\u00e9 Co,g1,yes,Ing\u00e9nieur (Paris)\n"
+        open(path, "wb").write(text.encode("cp1252"))                  # not valid UTF-8
+        assert tr.read_csv_rows(path)[0]["company"] == "Caf\u00e9 Co"
+        cache = {"g1": _guess("Caf\u00e9 Co", "g1")}
+        assert tr.apply_review(cache, path) == (1, 0) and cache["g1"]["bucket"] == "ready"
+        open(path, "w", encoding="utf-8-sig").write(text)               # 'CSV UTF-8' with BOM also works
+        assert tr.read_csv_rows(path)[0]["company"] == "Caf\u00e9 Co"
 
 
 def test_read_rows_checks_columns():

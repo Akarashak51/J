@@ -447,7 +447,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/cred",
     "evidence": "probe-guess",
-    "detail": "Lever board 'cred' has 8 jobs - is it really CRED?"
+    "detail": "Lever board 'cred' has 8 jobs - is it really CRED?",
+    "sample_jobs": "accounts payable manager (hyderabad) | business development & partnerships (bengaluru) | business development & strategic partnerships - d2c (bengaluru)"
   },
   "https://www.checkpoint.com/careers": {
     "company": "Check Point Software",
@@ -591,7 +592,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/dozee",
     "evidence": "probe-guess",
-    "detail": "Lever board 'dozee' has 19 jobs - is it really Dozee?"
+    "detail": "Lever board 'dozee' has 19 jobs - is it really Dozee?",
+    "sample_jobs": "Area Sales Manager (Bangalore) | Area Sales Manager (Delhi) | Area Sales Manager (Hyderabad)"
   },
   "https://jobs.dell.com": {
     "company": "Dell Technologies",
@@ -1149,7 +1151,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/linkedin",
     "evidence": "probe-guess",
-    "detail": "Lever board 'linkedin' has 23 jobs - is it really LinkedIn?"
+    "detail": "Lever board 'linkedin' has 23 jobs - is it really LinkedIn?",
+    "sample_jobs": "Anirban jobReq 3 - public (Bangalore) | BO Prim (Austin, TX) | BO Primary 1 (Alaska)"
   },
   "https://locus.sh/careers": {
     "company": "Locus.sh",
@@ -1302,7 +1305,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/meesho",
     "evidence": "probe-guess",
-    "detail": "Lever board 'meesho' has 59 jobs - is it really Meesho?"
+    "detail": "Lever board 'meesho' has 59 jobs - is it really Meesho?",
+    "sample_jobs": "AM/ Manager - Risk & Decision Science (Bangalore, Karnataka) | AM/M - Risk Analytics - User Lending (Bangalore, Karnataka) | Assistant Manager - Business Finance (Bangalore, Karnataka)"
   },
   "https://careers.microsoft.com": {
     "company": "Microsoft",
@@ -1406,11 +1410,11 @@
   "https://khatabook.com/careers": {
     "company": "Khatabook",
     "original_url": "https://khatabook.com/careers",
-    "bucket": "dead",
+    "bucket": "custom_alive",
     "ats": "",
     "entry_url": "",
     "evidence": "",
-    "detail": "could not load the page (TimeoutError)"
+    "detail": "page loads, no known hiring portal found (custom career site)"
   },
   "https://nielseniq.com/global/en/careers": {
     "company": "NielsenIQ",
@@ -2229,7 +2233,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/block",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Block' exists - is it really Square (Block Inc.)?"
+    "detail": "Greenhouse board 'Block' exists - is it really Square (Block Inc.)?",
+    "sample_jobs": "Account Manager, SMB (Sydney, Australia) | Account Manager, SMB  (Brisbane, Australia) | Account Manager, SMB  (Melbourne, Australia)"
   },
   "https://www.square-enix.com/": {
     "company": "Square Enix",
@@ -2283,7 +2288,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/tcs",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Thornbury Community Services' exists - is it really TCS?"
+    "detail": "Greenhouse board 'Thornbury Community Services' exists - is it really TCS?",
+    "sample_jobs": "Community Adult Nurse - Bath (Bath) | Community Adult Nurse – Complex Care - Falmouth (Falmouth) | Community Adult Nurse – Complex Care - Penryn (Penryn)"
   },
   "https://www.subex.com/careers": {
     "company": "Subex",
@@ -2301,7 +2307,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/spotify",
     "evidence": "probe-guess",
-    "detail": "Lever board 'spotify' has 85 jobs - is it really Spotify?"
+    "detail": "Lever board 'spotify' has 85 jobs - is it really Spotify?",
+    "sample_jobs": "Art Director - Mexico (Mexico City) | Artist & Label Partnerships Contractor, Vietnam (Ho Chi Minh) | Artist Label Partnerships Manager, Taiwan (Taiwan (Home Mix))"
   },
   "https://www.tesla.com/careers": {
     "company": "Tesla",
@@ -2553,7 +2560,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/vogo",
     "evidence": "probe-guess",
-    "detail": "Lever board 'vogo' has 3 jobs - is it really Vogo?"
+    "detail": "Lever board 'vogo' has 3 jobs - is it really Vogo?",
+    "sample_jobs": "Group Product Manager (Dallas, TX) | Growth Marketer - Digital Marketing (Dallas, TX) | Senior Backend Engineer (Dallas, TX)"
   },
   "https://www.urbancompany.com/": {
     "company": "Urban Company",
@@ -2580,7 +2588,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/wise",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Wise Worksite Field Sales ' exists - is it really Wise (TransferWise)?"
+    "detail": "Greenhouse board 'Wise Worksite Field Sales ' exists - is it really Wise (TransferWise)?",
+    "sample_jobs": "Supplemental Sales Agent - Chicago, IL (Chicago, IL) | Supplemental Sales Agent - Cleveland, Ohio (Cleveland, Ohio) | Supplemental Sales Agent - Dallas - Fort Worth, TX (Dallas - Fort Worth, TX)"
   },
   "https://workday.wd5.myworkdayjobs.com": {
     "company": "Workday",
@@ -3246,7 +3255,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/bluestone",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Bluestone Physician Services' exists - is it really BlueStone?"
+    "detail": "Greenhouse board 'Bluestone Physician Services' exists - is it really BlueStone?",
+    "sample_jobs": "Care Coordination Data Entry Specialist  (Stillwater, MN) | Care Coordinator, LSW (MSHO) (Apple Valley, MN) | Care Coordinator, LSW (MSHO) (Brooklyn Center, MN)"
   },
   "https://box8.in/careers": {
     "company": "Box8",
@@ -3269,11 +3279,11 @@
   "https://bbbsolutions.com/careers": {
     "company": "Big Bang Boom Solutions",
     "original_url": "https://bbbsolutions.com/careers",
-    "bucket": "dead",
+    "bucket": "custom_alive",
     "ats": "",
     "entry_url": "",
     "evidence": "",
-    "detail": "could not load the page (HTTP 404)"
+    "detail": "page loads, no known hiring portal found (custom career site)"
   },
   "https://blupineenergy.com/": {
     "company": "Blupine",
@@ -4074,7 +4084,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/fampay",
     "evidence": "probe-guess",
-    "detail": "Lever board 'fampay' has 16 jobs - is it really Fampay?"
+    "detail": "Lever board 'fampay' has 16 jobs - is it really Fampay?",
+    "sample_jobs": "Assistant Manager(Controllership) (Bengaluru) | Brand Marketing Manager (Bengaluru) | Business & Partnerships Associate (Bengaluru)"
   },
   "https://www.exideindustries.com/careers": {
     "company": "Exide Energy",
@@ -4290,7 +4301,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/godaddy",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'GoDaddy' exists - is it really GoDaddy India?"
+    "detail": "Greenhouse board 'GoDaddy' exists - is it really GoDaddy India?",
+    "sample_jobs": "Care Sales Guide - Inbound (Romania) | Care Sales Guide - Messaging (Romania) | Corporate Development Manager (Gurugram, Haryana, India)"
   },
   "https://geekster.in/": {
     "company": "Geekster",
@@ -5127,7 +5139,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/lgelectronics",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'LG Electronics' exists - is it really LG Electronics India?"
+    "detail": "Greenhouse board 'LG Electronics' exists - is it really LG Electronics India?",
+    "sample_jobs": "Account Manager, Media Solutions (Bloomington, MN ) | AGV Technician (Clarksville, TN  ) | AI Researcher (Efficient AI) (Santa Clara, CA )"
   },
   "https://leena.ai/careers": {
     "company": "Leena AI",
@@ -5415,7 +5428,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/naukri",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Team Konovo' exists - is it really Naukri?"
+    "detail": "Greenhouse board 'Team Konovo' exists - is it really Naukri?",
+    "sample_jobs": "the board has no jobs"
   },
   "https://moonfroglabs.com/careers": {
     "company": "Moonfrog Labs",
@@ -5843,11 +5857,11 @@
   "https://plotline.so/careers": {
     "company": "Plotline",
     "original_url": "https://plotline.so/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/plotlineso",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 15 postings"
   },
   "https://polycab.com/": {
     "company": "Polycab",
@@ -5865,7 +5879,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/pine",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Pine' exists - is it really Pine Labs?"
+    "detail": "Greenhouse board 'Pine' exists - is it really Pine Labs?",
+    "sample_jobs": "BizOps Analyst - Winter 2027 (Toronto - ON - Canada) | Mortgage Specialist  (Canada) | Senior Financial Analyst (Toronto, Ontario, Canada)"
   },
   "https://pitstop.co.in/careers": {
     "company": "Pitstop",
@@ -6185,11 +6200,11 @@
   "https://sarvam.ai/careers": {
     "company": "Sarvam AI",
     "original_url": "https://sarvam.ai/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/sarvam",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 42 postings"
   },
   "https://routemobile.com/careers": {
     "company": "Route Mobile",
@@ -6887,11 +6902,11 @@
   "https://trigent.com/careers": {
     "company": "Trigent Software",
     "original_url": "https://trigent.com/careers",
-    "bucket": "dead",
+    "bucket": "custom_alive",
     "ats": "",
     "entry_url": "",
     "evidence": "",
-    "detail": "could not load the page (HTTP 307)"
+    "detail": "page loads, no known hiring portal found (custom career site)"
   },
   "https://unominda.com/": {
     "company": "Uno Minda",
@@ -7337,11 +7352,11 @@
   "https://1password.com/careers": {
     "company": "1Password",
     "original_url": "https://1password.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/1password",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 71 postings"
   },
   "https://zolostays.com/careers": {
     "company": "Zolo Stays",
@@ -7368,7 +7383,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/abnormalsecurity",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Abnormal' exists - is it really Abnormal Security?"
+    "detail": "Greenhouse board 'Abnormal' exists - is it really Abnormal Security?",
+    "sample_jobs": "Account Executive, SLED (Sacramento only) (Remote - USA) | Application Security Engineer II (Remote - USA) | Compliance Trust Analyst (Remote - USA)"
   },
   "https://2k.com/careers": {
     "company": "2K Games",
@@ -7535,11 +7551,11 @@
   "https://alchemy.com/careers": {
     "company": "Alchemy",
     "original_url": "https://alchemy.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/alchemy",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 22 postings"
   },
   "https://akamai.com/careers": {
     "company": "Akamai",
@@ -7634,11 +7650,11 @@
   "https://amplitude.com/careers": {
     "company": "Amplitude",
     "original_url": "https://amplitude.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/amplitude",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 39 postings"
   },
   "https://alibabacloud.com/careers": {
     "company": "Alibaba Cloud",
@@ -7670,11 +7686,11 @@
   "https://andela.com/careers": {
     "company": "Andela",
     "original_url": "https://andela.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/andela",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 16 postings"
   },
   "https://amperecomputing.com/careers": {
     "company": "Ampere Computing",
@@ -7724,11 +7740,11 @@
   "https://anyscale.com/careers": {
     "company": "Anyscale",
     "original_url": "https://anyscale.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/anyscale",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 20 postings"
   },
   "https://apollo.io/careers": {
     "company": "Apollo.io",
@@ -7737,16 +7753,17 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/apollo",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Apollo Education Systems' exists - is it really Apollo.io?"
+    "detail": "Greenhouse board 'Apollo Education Systems' exists - is it really Apollo.io?",
+    "sample_jobs": "the board has no jobs"
   },
   "https://apollographql.com/careers": {
     "company": "Apollo GraphQL",
     "original_url": "https://apollographql.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/apollo-graphql",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 8 postings"
   },
   "https://appian.com/careers": {
     "company": "Appian",
@@ -7913,11 +7930,11 @@
   "https://avast.com/careers": {
     "company": "Avast",
     "original_url": "https://avast.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/gen-digital",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 128 postings"
   },
   "https://automationanywhere.com/": {
     "company": "Automation Anywhere",
@@ -7989,7 +8006,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/bandainamco",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Bandai Namco Entertainment America Inc.' exists - is it really Bandai Namco?"
+    "detail": "Greenhouse board 'Bandai Namco Entertainment America Inc.' exists - is it really Bandai Namco?",
+    "sample_jobs": "the board has no jobs"
   },
   "https://baesystems.com/careers": {
     "company": "BAE Systems",
@@ -8016,7 +8034,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/bethesda",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Bethesda Physical Therapy' exists - is it really Bethesda?"
+    "detail": "Greenhouse board 'Bethesda Physical Therapy' exists - is it really Bethesda?",
+    "sample_jobs": "Physical Therapist (Staunton, VA) | Physical Therapist Assistant (Staunton, VA)"
   },
   "https://bigcommerce.com/careers": {
     "company": "BigCommerce",
@@ -8052,7 +8071,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/binance",
     "evidence": "probe-guess",
-    "detail": "Lever board 'binance' has 34 jobs - is it really Binance?"
+    "detail": "Lever board 'binance' has 34 jobs - is it really Binance?",
+    "sample_jobs": "Binance Accelerator Program -  AI Supportability Engineer (Asia) | Binance Accelerator Program -  Web3 Operations (for current university students) (Asia) | Binance Accelerator Program - AI Agent Engineer (Asia)"
   },
   "https://barclays.com/careers": {
     "company": "Barclays Technology",
@@ -8259,7 +8279,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/baidu",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Baidu USA' exists - is it really Baidu?"
+    "detail": "Greenhouse board 'Baidu USA' exists - is it really Baidu?",
+    "sample_jobs": "Account Executive (New Business) (Los Angels, CA) | Account Manager (Mountain View, CA) | Account Manager - Remote (United States)"
   },
   "https://bt.com/careers": {
     "company": "BT Group",
@@ -8295,7 +8316,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/cambiumnetworks",
     "evidence": "probe-guess",
-    "detail": "Lever board 'cambiumnetworks' has 1 jobs - is it really Cambium Networks?"
+    "detail": "Lever board 'cambiumnetworks' has 1 jobs - is it really Cambium Networks?",
+    "sample_jobs": "Financial Analyst(Qualified/Semi Qualified CA) (Bengaluru, Karnataka)"
   },
   "https://canonical.com/careers": {
     "company": "Canonical",
@@ -8354,11 +8376,11 @@
   "https://character.ai/careers": {
     "company": "Character.AI",
     "original_url": "https://character.ai/careers",
-    "bucket": "other_ats",
-    "ats": "ashby",
+    "bucket": "blocked",
+    "ats": "",
     "entry_url": "",
-    "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "evidence": "",
+    "detail": "site blocks scripts (HTTP 403)"
   },
   "https://bumble.com/careers": {
     "company": "Bumble",
@@ -8412,7 +8434,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/chime",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Chime Financial, Inc' exists - is it really Chime?"
+    "detail": "Greenhouse board 'Chime Financial, Inc' exists - is it really Chime?",
+    "sample_jobs": "AEO Content Strategist (San Francisco, CA, USA) | AI/ML Engineer (Chicago, IL, USA; New York, NY, USA; San Francisco, CA, USA) | Business Control Manager (Chicago, IL, USA; New York, NY, USA; San Francisco, CA, USA)"
   },
   "https://chegg.com/careers": {
     "company": "Chegg",
@@ -8552,11 +8575,11 @@
   "https://cohere.com/careers": {
     "company": "Cohere",
     "original_url": "https://cohere.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/cohere",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 118 postings"
   },
   "https://citi.com/careers": {
     "company": "Citi Technology",
@@ -8696,11 +8719,11 @@
   "https://consensys.io/": {
     "company": "Consensys",
     "original_url": "https://consensys.io/",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/consensys",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 8 postings"
   },
   "https://coupang.com/careers": {
     "company": "Coupang",
@@ -8727,7 +8750,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/coupa",
     "evidence": "probe-guess",
-    "detail": "Lever board 'coupa' has 35 jobs - is it really Coupa?"
+    "detail": "Lever board 'coupa' has 35 jobs - is it really Coupa?",
+    "sample_jobs": "Account Development Representative - 11887 (Sydney, Australia) | AVP - Enterprise (Australia) | Collections Associate - 11937 (Poland)"
   },
   "https://coursera.org/careers": {
     "company": "Coursera",
@@ -9011,11 +9035,11 @@
   "https://drata.com/careers": {
     "company": "Drata",
     "original_url": "https://drata.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/drata",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 32 postings"
   },
   "https://doordash.com/careers": {
     "company": "DoorDash",
@@ -9425,11 +9449,11 @@
   "https://gainsight.com/careers": {
     "company": "Gainsight",
     "original_url": "https://gainsight.com/careers",
-    "bucket": "check_failed",
+    "bucket": "ready",
     "ats": "ashby",
     "entry_url": "https://jobs.ashbyhq.com/gainsight",
     "evidence": "page",
-    "detail": "portal not recognised. Supported links: Workday (myworkdayjobs.com), Greenhouse (boards.greenhouse.io), Lever (jobs.lever.co)"
+    "detail": "Ashby board reachable, 17 postings"
   },
   "https://gd.com/careers": {
     "company": "General Dynamics",
@@ -9587,11 +9611,11 @@
   "https://hackerone.com/careers": {
     "company": "HackerOne",
     "original_url": "https://hackerone.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/hackerone",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 9 postings"
   },
   "https://guidewire.com/careers": {
     "company": "Guidewire",
@@ -9825,7 +9849,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/imc",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'IMC' exists - is it really IMC Trading?"
+    "detail": "Greenhouse board 'IMC' exists - is it really IMC Trading?",
+    "sample_jobs": "2026 Chess Academy Australia & New Zealand (APAC) | 2027 EU Campus Programme Talent Community (Europe) | 2027 EU Chess Academy - Expression of Interest (Europe)"
   },
   "https://ikea.com/": {
     "company": "IKEA Digital",
@@ -9902,11 +9927,11 @@
   "https://instructure.com/careers": {
     "company": "Instructure",
     "original_url": "https://instructure.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/instructure",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 56 postings"
   },
   "https://hyundai.com/": {
     "company": "Hyundai Motor Tech",
@@ -9951,7 +9976,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/intercom",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Fin' exists - is it really Intercom?"
+    "detail": "Greenhouse board 'Fin' exists - is it really Intercom?",
+    "sample_jobs": "Account Executive, Commercial (San Francisco, California) | Account Executive, Commercial (Chicago, Illinois) | Account Executive, Enterprise (San Francisco, California; USA, Remote)"
   },
   "https://innodata.com/careers": {
     "company": "Innodata",
@@ -9960,7 +9986,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/innodata",
     "evidence": "probe-guess",
-    "detail": "Lever board 'innodata' has 3 jobs - is it really Innodata?"
+    "detail": "Lever board 'innodata' has 3 jobs - is it really Innodata?",
+    "sample_jobs": "Account Manager (San Francisco, CA) | Financial Analyst (San Francisco, CA) | Strategic Partnership Manager (San Francisco, CA)"
   },
   "https://janestreet.com/": {
     "company": "Jane Street",
@@ -10041,7 +10068,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/kabam",
     "evidence": "probe-guess",
-    "detail": "Lever board 'kabam' has 24 jobs - is it really Kabam?"
+    "detail": "Lever board 'kabam' has 24 jobs - is it really Kabam?",
+    "sample_jobs": "2026 Game Changer Scholarship Application (Remote Canada) | Concepteur de jeux (Contrat) (Montreal) | Demande de bourse Game Changer 2026 (Remote Canada)"
   },
   "https://khanacademy.org/careers": {
     "company": "Khan Academy",
@@ -10100,11 +10128,11 @@
   "https://konghq.com/careers": {
     "company": "Kong",
     "original_url": "https://konghq.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/kong",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 88 postings"
   },
   "https://kape.com/careers": {
     "company": "Kape Technologies",
@@ -10163,11 +10191,11 @@
   "https://langchain.com/careers": {
     "company": "LangChain",
     "original_url": "https://langchain.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/langchain",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 100 postings"
   },
   "https://lastpass.com/": {
     "company": "LastPass",
@@ -10235,11 +10263,11 @@
   "https://ledger.com/": {
     "company": "Ledger",
     "original_url": "https://ledger.com/",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/ledger",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 11 postings"
   },
   "https://lenovo.com/careers": {
     "company": "Lenovo",
@@ -10271,20 +10299,20 @@
   "https://linear.app/careers": {
     "company": "Linear",
     "original_url": "https://linear.app/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/Linear",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 31 postings"
   },
   "https://loft.sh/careers": {
     "company": "Loft Labs",
     "original_url": "https://loft.sh/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/vClusterLabs",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 29 postings"
   },
   "https://thekrogerco.com/careers": {
     "company": "Kroger Technology",
@@ -10473,7 +10501,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/mcafee",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'McAfee Heating and Air Conditioning' exists - is it really McAfee?"
+    "detail": "Greenhouse board 'McAfee Heating and Air Conditioning' exists - is it really McAfee?",
+    "sample_jobs": "Electrical Manager (Kettering, OH)"
   },
   "https://materialize.com/careers": {
     "company": "Materialize",
@@ -10496,11 +10525,11 @@
   "https://menlosecurity.com/careers": {
     "company": "Menlo Security",
     "original_url": "https://menlosecurity.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/menlosecurity",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 26 postings"
   },
   "https://mastechdigital.com/careers": {
     "company": "Mastech Digital",
@@ -10572,7 +10601,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/mendix",
     "evidence": "probe-guess",
-    "detail": "Lever board 'mendix' has 42 jobs - is it really Mendix?"
+    "detail": "Lever board 'mendix' has 42 jobs - is it really Mendix?",
+    "sample_jobs": "Business Development Representative (Boston, MA) | Cloud Unit Lead (Rotterdam) | Customer Stories Lead (United States)"
   },
   "https://microstrategy.com/careers": {
     "company": "MicroStrategy",
@@ -10604,11 +10634,11 @@
   "https://mistral.ai/careers": {
     "company": "Mistral AI",
     "original_url": "https://mistral.ai/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/mistral.ai",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 216 postings"
   },
   "https://mindbodyonline.com/careers": {
     "company": "Mindbody",
@@ -10703,11 +10733,11 @@
   "https://montecarlodata.com/careers": {
     "company": "Monte Carlo Data",
     "original_url": "https://montecarlodata.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/montecarlodata",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 10 postings"
   },
   "https://monday.com/careers": {
     "company": "Monday.com",
@@ -10923,16 +10953,17 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/nothing",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Nothing' exists - is it really Nothing Technology?"
+    "detail": "Greenhouse board 'Nothing' exists - is it really Nothing Technology?",
+    "sample_jobs": "Account Manager, North America Carrier — 3–6 Month Consultancy (San Francisco, California, United States) | Ecommerce Executive (London, England, United Kingdom) | Growth Lead, Subscription Products (London, England, United Kingdom)"
   },
   "https://notion.so/careers": {
     "company": "Notion",
     "original_url": "https://notion.so/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/notion",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 129 postings"
   },
   "https://nordsec.com/careers": {
     "company": "NordSecurity",
@@ -10946,11 +10977,11 @@
   "https://gendigital.com/careers": {
     "company": "NortonLifeLock Gen Digital",
     "original_url": "https://gendigital.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/gen-digital",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 127 postings"
   },
   "https://northropgrumman.com/careers": {
     "company": "Northrop Grumman",
@@ -11067,7 +11098,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/orca",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'ORCA Service Technologies' exists - is it really Orca Security?"
+    "detail": "Greenhouse board 'ORCA Service Technologies' exists - is it really Orca Security?",
+    "sample_jobs": "Business Development Manager - Software Sales (Maidenhead)"
   },
   "https://optiver.com/careers": {
     "company": "Optiver",
@@ -11099,11 +11131,11 @@
   "https://oysterhr.com/careers": {
     "company": "Oyster HR",
     "original_url": "https://oysterhr.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/oyster",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 22 postings"
   },
   "https://outreach.io/careers": {
     "company": "Outreach",
@@ -11112,7 +11144,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/outreach",
     "evidence": "probe-guess",
-    "detail": "Lever board 'outreach' has 26 jobs - is it really Outreach?"
+    "detail": "Lever board 'outreach' has 26 jobs - is it really Outreach?",
+    "sample_jobs": "Customer Advocacy Manager (United States) | Director of Applied Science and Engineering - Knowledge Graphs & AI (Hyderabad) | Director of Product Strategy (Seattle, WA)"
   },
   "https://pagerduty.com/careers": {
     "company": "PagerDuty",
@@ -11234,11 +11267,11 @@
   "https://pinecone.io/careers": {
     "company": "Pinecone",
     "original_url": "https://pinecone.io/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/pinecone",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 5 postings"
   },
   "https://photon.com/careers": {
     "company": "Photon Infotech",
@@ -11274,7 +11307,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/pipedrive",
     "evidence": "probe-guess",
-    "detail": "Lever board 'pipedrive' has 8 jobs - is it really Pipedrive?"
+    "detail": "Lever board 'pipedrive' has 8 jobs - is it really Pipedrive?",
+    "sample_jobs": "Principal AI/ML Scientist & Engineer (Portugal, Lisbon) | Principal AI/ML Scientist & Engineer (Germany, Berlin) | Principal AI/ML Scientist & Engineer (UK, London)"
   },
   "https://planet.com/careers": {
     "company": "Planet Labs",
@@ -11283,7 +11317,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/planetlabs",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Planet' exists - is it really Planet Labs?"
+    "detail": "Greenhouse board 'Planet' exists - is it really Planet Labs?",
+    "sample_jobs": "Account Executive, Defence & Intelligence (Japan, Remote) | Account Executive, Defence & Intelligence, France (France, Remote) | Account Executive, Defence & Intelligence, Sweden (Sweden, Remote)"
   },
   "https://pluralsight.com/careers": {
     "company": "Pluralsight",
@@ -11346,7 +11381,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/proton",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Proton' exists - is it really ProtonMail?"
+    "detail": "Greenhouse board 'Proton' exists - is it really ProtonMail?",
+    "sample_jobs": "Backend Engineer (VPN) (Geneva; Barcelona; Vilnius) | Business Development Manager (Geneva) | CRM & Lifecycle Marketing Lead (B2B) (London; Barcelona )"
   },
   "https://prolifics.com/": {
     "company": "Prolifics",
@@ -11463,7 +11499,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/purestorage",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Everpure' exists - is it really Pure Storage?"
+    "detail": "Greenhouse board 'Everpure' exists - is it really Pure Storage?",
+    "sample_jobs": "パートナーアカウントマネージャー (Tokyo, Japan) | パートナーアカウントマネージャー  (Tokyo, Japan) | Account Executive, AI/HPC, Neo / Sovereign Cloud (EMEA) (Remote, United Kingdom)"
   },
   "https://rambus.com/careers": {
     "company": "Rambus",
@@ -11571,16 +11608,17 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/remote",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'General Assembly Remote Jobs ' exists - is it really Remote.com?"
+    "detail": "Greenhouse board 'General Assembly Remote Jobs ' exists - is it really Remote.com?",
+    "sample_jobs": "SEI Instructor Lead (New York, NY) | SEI Instructor Lead (New York, NY)"
   },
   "https://replit.com/careers": {
     "company": "Replit",
     "original_url": "https://replit.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/replit",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 65 postings"
   },
   "https://redcanary.com/careers": {
     "company": "Red Canary",
@@ -11729,11 +11767,11 @@
   "https://runwayml.com/careers": {
     "company": "Runway",
     "original_url": "https://runwayml.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/runway-ml",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 49 postings"
   },
   "https://rolls-royce.com/": {
     "company": "Rolls-Royce",
@@ -11814,7 +11852,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/sas",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Superior Alarm Systems' exists - is it really SAS Institute?"
+    "detail": "Greenhouse board 'Superior Alarm Systems' exists - is it really SAS Institute?",
+    "sample_jobs": "Commercial Security Technician III  (San Jose, California, United States) | Commercial Security Technician IV  (San Jose, California, United States) | Security Systems Technician IV (Canoga Park, CA)"
   },
   "https://scale.com/careers": {
     "company": "Scale AI",
@@ -11900,20 +11939,20 @@
   "https://sentry.io/careers": {
     "company": "Sentry",
     "original_url": "https://sentry.io/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/sentry",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 46 postings"
   },
   "https://secureframe.com/careers": {
     "company": "Secureframe",
     "original_url": "https://secureframe.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/secureframe",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 7 postings"
   },
   "https://commscope.com/careers": {
     "company": "Ruckus Networks",
@@ -11994,7 +12033,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/silicon",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Roivant Discovery ' exists - is it really Silicon Labs?"
+    "detail": "Greenhouse board 'Roivant Discovery ' exists - is it really Silicon Labs?",
+    "sample_jobs": "the board has no jobs"
   },
   "https://singlestore.com/careers": {
     "company": "SingleStore",
@@ -12008,11 +12048,11 @@
   "https://sitecore.com/": {
     "company": "Sitecore",
     "original_url": "https://sitecore.com/",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/sitecore",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 35 postings"
   },
   "https://smartsheet.com/careers": {
     "company": "Smartsheet",
@@ -12147,7 +12187,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/spire",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Spire' exists - is it really Spire Global?"
+    "detail": "Greenhouse board 'Spire' exists - is it really Spire Global?",
+    "sample_jobs": "Backend Software Engineer, Weather & Aviation (Boulder, Colorado, United States) | Business Development Manager, Federal ISR (Washington DC) | Director of Software Engineering (Boulder, Colorado, United States )"
   },
   "https://sentinelone.com/careers": {
     "company": "SentinelOne",
@@ -12233,11 +12274,11 @@
   "https://strava.com/careers": {
     "company": "Strava",
     "original_url": "https://strava.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/strava",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 35 postings"
   },
   "https://sc.com/careers": {
     "company": "Standard Chartered GBS",
@@ -12287,11 +12328,11 @@
   "https://supabase.com/careers": {
     "company": "Supabase",
     "original_url": "https://supabase.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/supabase",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 54 postings"
   },
   "https://smartbear.com/careers": {
     "company": "Swagger SmartBear",
@@ -12300,7 +12341,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/smartbear",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'SmartBear' exists - is it really Swagger SmartBear?"
+    "detail": "Greenhouse board 'SmartBear' exists - is it really Swagger SmartBear?",
+    "sample_jobs": "Accepting Applications for Future Opportunities - Renewals Specialist (Somerville, Massachusetts, United States) |  Accepting Applications for Future Opportunities -Sales Development Representative (Somerville, Massachusetts, United States) | Account Executive (Galway, Galway, Ireland)"
   },
   "https://surfshark.com/": {
     "company": "Surfshark",
@@ -12363,7 +12405,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/sysdig",
     "evidence": "probe-guess",
-    "detail": "Lever board 'sysdig' has 33 jobs - is it really Sysdig?"
+    "detail": "Lever board 'sysdig' has 33 jobs - is it really Sysdig?",
+    "sample_jobs": "Director of Infrastructure (Flexible - Italy) | Director of Security Engineering (Flexible - USA) | Director, Security Research (Flexible - USA)"
   },
   "https://sophos.com/careers": {
     "company": "Sophos",
@@ -12372,7 +12415,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/sophos",
     "evidence": "probe-guess",
-    "detail": "Lever board 'sophos' has 90 jobs - is it really Sophos?"
+    "detail": "Lever board 'sophos' has 90 jobs - is it really Sophos?",
+    "sample_jobs": "Account Executive (via third party) (Morocco) | Channel Account Executive (via 3rd party) (Nigeria) | Commercial Account Manager (Vancouver, Canada)"
   },
   "https://tailscale.com/careers": {
     "company": "Tailscale",
@@ -12597,7 +12641,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/toptal",
     "evidence": "probe-guess",
-    "detail": "Lever board 'toptal' has 32 jobs - is it really Toptal?"
+    "detail": "Lever board 'toptal' has 32 jobs - is it really Toptal?",
+    "sample_jobs": "Account Executive (Canada, Central America, South America) | Account Executive - US-Based (United States) | Business Solutions Specialist (South America, Central America)"
   },
   "https://global.toshiba/careers": {
     "company": "Toshiba",
@@ -12764,11 +12809,11 @@
   "https://uipath.com/careers": {
     "company": "UiPath",
     "original_url": "https://uipath.com/careers",
-    "bucket": "other_ats",
+    "bucket": "ready",
     "ats": "ashby",
-    "entry_url": "",
+    "entry_url": "https://jobs.ashbyhq.com/uipath",
     "evidence": "page",
-    "detail": "uses ashby - the agent cannot read this portal yet"
+    "detail": "Ashby board reachable, 105 postings"
   },
   "https://trellix.com/careers": {
     "company": "Trellix",
@@ -12953,11 +12998,11 @@
   "https://visteon.com/careers": {
     "company": "Visteon",
     "original_url": "https://visteon.com/careers",
-    "bucket": "other_ats",
-    "ats": "darwinbox",
+    "bucket": "blocked",
+    "ats": "",
     "entry_url": "",
-    "evidence": "page",
-    "detail": "uses darwinbox - the agent cannot read this portal yet"
+    "evidence": "",
+    "detail": "site blocks scripts (HTTP 429)"
   },
   "https://vestas.com/careers": {
     "company": "Vestas",
@@ -12984,7 +13029,7 @@
     "ats": "",
     "entry_url": "",
     "evidence": "",
-    "detail": "could not load the page (HTTP 404)"
+    "detail": "could not load the page (URLError)"
   },
   "https://vodafone.com/careers": {
     "company": "Vodafone",
@@ -13119,7 +13164,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/westernunion",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Western Union' exists - is it really Western Union Technology?"
+    "detail": "Greenhouse board 'Western Union' exists - is it really Western Union Technology?",
+    "sample_jobs": "Talent Community (Test) (USA - CO - Denver)"
   },
   "https://volkswagen.com/careers": {
     "company": "Volkswagen Digital",
@@ -13209,7 +13255,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/zoominfo",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'ZoomInfo Technologies LLC' exists - is it really Zoom Info?"
+    "detail": "Greenhouse board 'ZoomInfo Technologies LLC' exists - is it really Zoom Info?",
+    "sample_jobs": " Account Executive  - GTM Overlay (Bethesda, Maryland, United States; Vancouver, Washington, United States; Waltham, Massachusetts, United States) | Account Manager, Enterprise Growth (Vancouver, Washington, United States; Waltham, Massachusetts, United States) | Account Manager I (SMB) (London, United Kingdom)"
   },
   "https://zendesk.com/careers": {
     "company": "Zendesk",
@@ -13272,7 +13319,8 @@
     "ats": "lever",
     "entry_url": "https://jobs.lever.co/zoox",
     "evidence": "probe-guess",
-    "detail": "Lever board 'zoox' has 239 jobs - is it really Zoox?"
+    "detail": "Lever board 'zoox' has 239 jobs - is it really Zoox?",
+    "sample_jobs": "Administrative Business Partner, Floater (Foster City, CA) | AV Safety Data Reporting Engineer (Foster City, CA) | Body Structures Engineer (Foster City, CA)"
   },
   "https://zuora.com/careers": {
     "company": "Zuora",
@@ -13713,7 +13761,8 @@
     "ats": "greenhouse",
     "entry_url": "https://boards.greenhouse.io/air",
     "evidence": "probe-guess",
-    "detail": "Greenhouse board 'Air' exists - is it really Air India?"
+    "detail": "Greenhouse board 'Air' exists - is it really Air India?",
+    "sample_jobs": "Account Executive - DoW (Arlington, Virginia, United States) | AI Engineer  (Pittsburgh, Pennsylvania, United States) | DevOps Director (Pittsburgh, Pennsylvania, United States)"
   },
   "https://www.birlacorporation.com/careers": {
     "company": "Birla Corporation",

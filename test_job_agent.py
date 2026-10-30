@@ -27,6 +27,14 @@ def test_title_matching():
     assert ja.match_title("Wisdeman Analyst", q) == ""
 
 
+def test_families_do_not_leak_into_each_other():
+    for title in ("Hardware Engineer", "Firmware Engineer", "IoT Engineer", "Embedded Engineer"):
+        assert ja.match_title(title, "Software Engineer") == "", title
+    assert ja.match_title("Embedded Software Engineer", "Software Engineer") == "exact"
+    assert ja.match_title("Embedded Software Engineer", "Embedded Engineer") == "related"
+    assert ja.match_title("Full Stack Developer", "Embedded Engineer") == ""
+
+
 def test_embedded_family():
     assert ja.match_title("Firmware Engineer", "Embedded Engineer") == "related"
     assert ja.match_title("IoT Engineer", "Embedded Engineer") == "related"
@@ -183,6 +191,139 @@ def test_workday_fetch_with_mock():
     assert len(final) == 2 and all(j.experience == "fit" for j in final)
 
 
+def test_ashby_adapter_and_url_detection():
+    assert ja.detect_from_url("https://jobs.ashbyhq.com/openai") == {"ats": "ashby", "slug": "openai"}
+    assert ja.detect_from_url("https://jobs.ashbyhq.com/openai/abc-123")["slug"] == "openai"
+    payload = {"apiVersion": "1", "jobs": [
+        {"title": "Software Engineer", "location": "Bengaluru", "isListed": True, "employmentType": "FullTime",
+         "publishedAt": (NOW - timedelta(hours=5)).isoformat(), "jobUrl": "https://jobs.ashbyhq.com/x/1",
+         "descriptionPlain": "0-2 years of experience"},
+        {"title": "Software Engineer Intern", "location": "Remote", "isListed": True, "employmentType": "Intern",
+         "publishedAt": (NOW - timedelta(hours=5)).isoformat(), "jobUrl": "https://jobs.ashbyhq.com/x/2",
+         "descriptionHtml": "<p>Summer role</p>"},
+        {"title": "Hidden Role", "isListed": False, "jobUrl": "https://jobs.ashbyhq.com/x/3"},
+    ]}
+    ja.http_get_json = lambda url: payload
+    jobs = ja.fetch_ashby("x")
+    assert [j.title for j in jobs] == ["Software Engineer", "Software Engineer Intern"]      # unlisted skipped
+    assert jobs[1].job_type == "internship" and jobs[1].description == "Summer role"
+    assert jobs[0].source == "ashby" and jobs[0].posted is not None
+    out = ja.filter_jobs(jobs, "Software Engineer", 2, 3, now=NOW)
+    assert len(out) == 2 and "ashby" in ja.ADAPTERS
+
+
+STRIPE_JD = ("Who you are We are looking for someone who meets the minimum requirements to be considered for the role. "
+             "If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, "
+             "not a requirement. Minimum requirements 4+ years of experience in building, shipping, and maintaining "
+             "backend software in a production environment Proficiency in Java or Ruby "
+             "Preferred qualifications 2 years of Rust")
+FIGMA_JD = ("We would love to hear from you if you have: Current enrollment as a 4th or 5th year senior PhD student "
+            "pursuing a PhD in Computer Graphics, Media Processing, or a related field. This is a 12 or 16-week internship.")
+NVIDIA_PERF_JD = ("NVIDIA has been transforming computer graphics for more than 25 years. What we need to see: BS or MS "
+                  "degree in Computer Engineering, or related degree (or equivalent experience). 2+ years of relevant "
+                  "computer architecture or SW development experience.")
+NVIDIA_FAE_JD = ("What we need to see: BS or MS in Electrical Engineering or Computer Science or equivalent experience "
+                 "2+ years of work-related experience in a high-tech electronics industry in an embedded design role")
+
+
+def test_real_postings_from_the_first_dashboard_run():
+    f = lambda title, jd: ja.classify_experience(title, jd, 2)
+    assert ja.min_years_required(STRIPE_JD) == 4                          # 'preferred qualifications are a bonus' no longer hides it
+    assert f("Software Engineer, Storage Integrations", STRIPE_JD) == "reject"
+    assert f("PhD Intern, Software Engineer - Graphics (2027)", FIGMA_JD) == "reject"
+    assert f("System Software Engineer - Performance", NVIDIA_PERF_JD) == "fit"
+    assert f("Field Applications Engineer, Embedded Systems - NALA", NVIDIA_FAE_JD) == "fit"
+    assert ja.min_years_required(NVIDIA_PERF_JD) == 2 and ja.min_years_required(NVIDIA_FAE_JD) == 2
+
+
+def test_phd_rule_is_not_too_greedy():
+    assert not ja.requires_phd("Software Engineer", "0-2 years of experience. PhD preferred.")
+    assert ja.requires_phd("Research Intern (Ph.D.)", "")
+    assert ja.requires_phd("Intern", "Open to a PhD student in machine learning")
+    assert ja.classify_experience("Software Engineer", "0-2 years of experience. PhD preferred.", 2) == "fit"
+
+
+def test_preferred_years_are_ignored_but_required_years_use_the_largest():
+    assert ja.min_years_required("Minimum requirements 1 year of Python and 3 years of backend experience") == 3
+    assert ja.min_years_required("Basic qualifications 1+ years of Java. Preferred qualifications 5+ years of Go") == 1
+    assert ja.min_years_required("Ways to stand out: 4 years of Rust") is None
+
+
+def test_exact_means_the_whole_role_phrase_is_in_the_title():
+    assert ja.match_title("Embedded Engineer II", "Embedded Engineer") == "exact"
+    assert ja.match_title("Field Applications Engineer, Embedded Systems - NALA", "Embedded Engineer") == "related"
+    assert ja.match_title("Software Engineer, Storage Integrations", "Software Engineer") == "exact"
+
+
+def test_kept_jobs_record_the_years_they_ask_for():
+    j = mk("Software Engineer", desc=NVIDIA_PERF_JD, hours_ago=5)
+    out = ja.filter_jobs([j], "Software Engineer", 2, 3, now=NOW)
+    assert out[0].min_years == 2
+    j2 = mk("Software Engineer", desc="We love building things", hours_ago=5)
+    assert ja.filter_jobs([j2], "Software Engineer", 2, 3, now=NOW)[0].min_years is None
+
+
+def test_filter_does_not_modify_shared_jobs():
+    shared = mk("Software Engineer", desc="0-2 years of experience", hours_ago=5)
+    ja.filter_jobs([shared], "Software Engineer", 2, 3, now=NOW)
+    assert shared.match == "" and shared.experience == "" and shared.min_years is None   # the original is untouched
+    first = ja.filter_jobs([shared], "Software Engineer", 2, 3, now=NOW)[0]
+    second = ja.filter_jobs([shared], "Embedded Engineer", 2, 3, now=NOW)
+    assert first.match == "exact" and second == []                                       # roles cannot overwrite each other
+
+
+def test_board_is_downloaded_once_for_several_roles():
+    calls = []
+
+    def fresh(title):                    # dated relative to the REAL clock, because search_url uses the real clock
+        return ja.Job(title=title, company="acme", location="", url="u", source="test",
+                      posted=datetime.now(timezone.utc) - timedelta(hours=5), date_kind="published",
+                      description="0-2 years of experience")
+
+    def fake_board(slug):
+        calls.append(slug)
+        return [fresh("Software Engineer"), fresh("Embedded Engineer")]
+
+    saved = dict(ja.ADAPTERS)
+    ja.ADAPTERS.clear()
+    ja.ADAPTERS["greenhouse"] = fake_board
+    try:
+        ja.clear_board_cache()
+        a = ja.search_url("https://boards.greenhouse.io/acme", "Software Engineer", 2, 3)
+        b = ja.search_url("https://boards.greenhouse.io/acme", "Embedded Engineer", 2, 3)
+        assert calls == ["acme"]                                                          # one download for two roles
+        assert [j.title for j in a["jobs"]] == ["Software Engineer"] and [j.title for j in b["jobs"]] == ["Embedded Engineer"]
+        ja.clear_board_cache()
+        ja.search_url("https://boards.greenhouse.io/acme", "Software Engineer", 2, 3)
+        assert calls == ["acme", "acme"]                                                  # a new batch downloads again
+    finally:
+        ja.ADAPTERS.clear()
+        ja.ADAPTERS.update(saved)
+        ja.clear_board_cache()
+
+
+def test_failed_board_is_remembered_within_a_batch():
+    calls = []
+
+    def broken(slug):
+        calls.append(slug)
+        raise ja.PortalError("HTTP 500")
+
+    saved = dict(ja.ADAPTERS)
+    ja.ADAPTERS.clear()
+    ja.ADAPTERS["lever"] = broken
+    try:
+        ja.clear_board_cache()
+        for role in ("Software Engineer", "Embedded Engineer"):
+            res = ja.search_url("https://jobs.lever.co/acme", role, 2, 3)
+            assert res["status"] == "unreachable" and "HTTP 500" in res["reason"]
+        assert calls == ["acme"]
+    finally:
+        ja.ADAPTERS.clear()
+        ja.ADAPTERS.update(saved)
+        ja.clear_board_cache()
+
+
 def test_relative_date_boundary():
     j = mk("Software Engineer", hours_ago=72)
     j.date_kind = "relative"
@@ -198,4 +339,3 @@ if __name__ == "__main__":
             fn()
             print("PASS", name)
     print("All tests passed.")
-    

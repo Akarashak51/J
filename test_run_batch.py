@@ -58,6 +58,19 @@ def test_profile_values_are_converted_to_the_right_types():
     assert seen == {"max_exp": 2, "days": 3, "inc": False}
 
 
+def test_progress_is_reported_and_order_is_stable():
+    ja.search_company = lambda slug, role, max_exp, days, include_internships=True: {
+        "company": slug, "status": "no_role", "scanned": 1, "jobs": []}
+    companies = [{"name": f"C{i}", "slug": f"c{i}"} for i in range(30)]
+    profile = {**rb.DEFAULT_PROFILE, "roles": ["Software Engineer", "Embedded Engineer"]}
+    lines = []
+    results = rb.run_batch(companies, profile, workers=5, progress=lines.append)
+    assert [(r["company"], r["role"]) for r in results] == [(f"C{i}", role) for role in profile["roles"] for i in range(30)]
+    assert any("25/60" in line for line in lines) and "60/60 searches done" in lines[-1]
+    quiet = rb.run_batch(companies[:3], profile, progress=None)                            # progress can be switched off
+    assert len(quiet) == 6
+
+
 def test_results_json_is_valid():
     ja.search_company, ja.search_url = fake_search_company, fake_search_url
     profile = dict(rb.DEFAULT_PROFILE)

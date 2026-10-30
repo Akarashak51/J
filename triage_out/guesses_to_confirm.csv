@@ -3,9 +3,9 @@ CRED,guess,lever,https://jobs.lever.co/cred,probe-guess,Lever board 'cred' has 8
 Dozee,guess,lever,https://jobs.lever.co/dozee,probe-guess,Lever board 'dozee' has 19 jobs - is it really Dozee?,https://www.dozee.health/
 LinkedIn,guess,lever,https://jobs.lever.co/linkedin,probe-guess,Lever board 'linkedin' has 23 jobs - is it really LinkedIn?,https://careers.linkedin.com
 Meesho,guess,lever,https://jobs.lever.co/meesho,probe-guess,Lever board 'meesho' has 59 jobs - is it really Meesho?,https://careers.meesho.com
-Spotify,guess,lever,https://jobs.lever.co/spotify,probe-guess,Lever board 'spotify' has 85 jobs - is it really Spotify?,https://www.spotifyjobs.com
 Square (Block Inc.),guess,greenhouse,https://boards.greenhouse.io/block,probe-guess,Greenhouse board 'Block' exists - is it really Square (Block Inc.)?,https://block.xyz/careers
 TCS,guess,greenhouse,https://boards.greenhouse.io/tcs,probe-guess,Greenhouse board 'Thornbury Community Services' exists - is it really TCS?,https://www.tcs.com/careers
+Spotify,guess,lever,https://jobs.lever.co/spotify,probe-guess,Lever board 'spotify' has 85 jobs - is it really Spotify?,https://www.spotifyjobs.com
 Vogo,guess,lever,https://jobs.lever.co/vogo,probe-guess,Lever board 'vogo' has 3 jobs - is it really Vogo?,https://vogo.in/careers
 Wise (TransferWise),guess,greenhouse,https://boards.greenhouse.io/wise,probe-guess,Greenhouse board 'Wise Worksite Field Sales ' exists - is it really Wise (TransferWise)?,https://www.wise.jobs
 BlueStone,guess,greenhouse,https://boards.greenhouse.io/bluestone,probe-guess,Greenhouse board 'Bluestone Physician Services' exists - is it really BlueStone?,https://bluestone.com/
@@ -16,16 +16,16 @@ Naukri,guess,greenhouse,https://boards.greenhouse.io/naukri,probe-guess,Greenhou
 Pine Labs,guess,greenhouse,https://boards.greenhouse.io/pine,probe-guess,Greenhouse board 'Pine' exists - is it really Pine Labs?,https://pinelabs.com/careers
 Abnormal Security,guess,greenhouse,https://boards.greenhouse.io/abnormalsecurity,probe-guess,Greenhouse board 'Abnormal' exists - is it really Abnormal Security?,https://abnormalsecurity.com/careers
 Apollo.io,guess,greenhouse,https://boards.greenhouse.io/apollo,probe-guess,Greenhouse board 'Apollo Education Systems' exists - is it really Apollo.io?,https://apollo.io/careers
-Baidu,guess,greenhouse,https://boards.greenhouse.io/baidu,probe-guess,Greenhouse board 'Baidu USA' exists - is it really Baidu?,https://baidu.com/careers
 Bandai Namco,guess,greenhouse,https://boards.greenhouse.io/bandainamco,probe-guess,Greenhouse board 'Bandai Namco Entertainment America Inc.' exists - is it really Bandai Namco?,https://bandainamcoent.co.jp/careers
 Bethesda,guess,greenhouse,https://boards.greenhouse.io/bethesda,probe-guess,Greenhouse board 'Bethesda Physical Therapy' exists - is it really Bethesda?,https://bethesda.net/
 Binance,guess,lever,https://jobs.lever.co/binance,probe-guess,Lever board 'binance' has 34 jobs - is it really Binance?,https://binance.com/careers
+Baidu,guess,greenhouse,https://boards.greenhouse.io/baidu,probe-guess,Greenhouse board 'Baidu USA' exists - is it really Baidu?,https://baidu.com/careers
 Cambium Networks,guess,lever,https://jobs.lever.co/cambiumnetworks,probe-guess,Lever board 'cambiumnetworks' has 1 jobs - is it really Cambium Networks?,https://cambiumnetworks.com/careers
 Chime,guess,greenhouse,https://boards.greenhouse.io/chime,probe-guess,"Greenhouse board 'Chime Financial, Inc' exists - is it really Chime?",https://chime.com/careers
 Coupa,guess,lever,https://jobs.lever.co/coupa,probe-guess,Lever board 'coupa' has 35 jobs - is it really Coupa?,https://coupa.com/careers
 IMC Trading,guess,greenhouse,https://boards.greenhouse.io/imc,probe-guess,Greenhouse board 'IMC' exists - is it really IMC Trading?,https://imc.com/careers
-Innodata,guess,lever,https://jobs.lever.co/innodata,probe-guess,Lever board 'innodata' has 3 jobs - is it really Innodata?,https://innodata.com/careers
 Intercom,guess,greenhouse,https://boards.greenhouse.io/intercom,probe-guess,Greenhouse board 'Fin' exists - is it really Intercom?,https://intercom.com/careers
+Innodata,guess,lever,https://jobs.lever.co/innodata,probe-guess,Lever board 'innodata' has 3 jobs - is it really Innodata?,https://innodata.com/careers
 Kabam,guess,lever,https://jobs.lever.co/kabam,probe-guess,Lever board 'kabam' has 24 jobs - is it really Kabam?,https://kabam.com/careers
 McAfee,guess,greenhouse,https://boards.greenhouse.io/mcafee,probe-guess,Greenhouse board 'McAfee Heating and Air Conditioning' exists - is it really McAfee?,https://mcafee.com/careers
 Mendix,guess,lever,https://jobs.lever.co/mendix,probe-guess,Lever board 'mendix' has 42 jobs - is it really Mendix?,https://mendix.com/careers
@@ -39,10 +39,10 @@ Pure Storage,guess,greenhouse,https://boards.greenhouse.io/purestorage,probe-gue
 Remote.com,guess,greenhouse,https://boards.greenhouse.io/remote,probe-guess,Greenhouse board 'General Assembly Remote Jobs ' exists - is it really Remote.com?,https://remote.com/careers
 SAS Institute,guess,greenhouse,https://boards.greenhouse.io/sas,probe-guess,Greenhouse board 'Superior Alarm Systems' exists - is it really SAS Institute?,https://sas.com/careers
 Silicon Labs,guess,greenhouse,https://boards.greenhouse.io/silicon,probe-guess,Greenhouse board 'Roivant Discovery ' exists - is it really Silicon Labs?,https://silabs.com/careers
-Sophos,guess,lever,https://jobs.lever.co/sophos,probe-guess,Lever board 'sophos' has 90 jobs - is it really Sophos?,https://sophos.com/careers
 Spire Global,guess,greenhouse,https://boards.greenhouse.io/spire,probe-guess,Greenhouse board 'Spire' exists - is it really Spire Global?,https://spire.com/careers
 Swagger SmartBear,guess,greenhouse,https://boards.greenhouse.io/smartbear,probe-guess,Greenhouse board 'SmartBear' exists - is it really Swagger SmartBear?,https://smartbear.com/careers
 Sysdig,guess,lever,https://jobs.lever.co/sysdig,probe-guess,Lever board 'sysdig' has 33 jobs - is it really Sysdig?,https://sysdig.com/careers
+Sophos,guess,lever,https://jobs.lever.co/sophos,probe-guess,Lever board 'sophos' has 90 jobs - is it really Sophos?,https://sophos.com/careers
 Toptal,guess,lever,https://jobs.lever.co/toptal,probe-guess,Lever board 'toptal' has 32 jobs - is it really Toptal?,https://toptal.com/careers
 Western Union Technology,guess,greenhouse,https://boards.greenhouse.io/westernunion,probe-guess,Greenhouse board 'Western Union' exists - is it really Western Union Technology?,https://westernunion.com/careers
 Zoom Info,guess,greenhouse,https://boards.greenhouse.io/zoominfo,probe-guess,Greenhouse board 'ZoomInfo Technologies LLC' exists - is it really Zoom Info?,https://zoominfo.com/careers

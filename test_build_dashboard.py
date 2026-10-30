@@ -36,7 +36,7 @@ def test_payload_roundtrips_and_cannot_break_out():
 def test_template_is_complete():
     html = bd.build_html(DATA)
     assert "__DATA__" not in html
-    for needle in ("Could not check", "textContent", "replaceChildren", "https?:"):
+    for needle in ("Could not check", "textContent", "replaceChildren", "https?:", "Asks for "):
         assert needle in html
 
 
